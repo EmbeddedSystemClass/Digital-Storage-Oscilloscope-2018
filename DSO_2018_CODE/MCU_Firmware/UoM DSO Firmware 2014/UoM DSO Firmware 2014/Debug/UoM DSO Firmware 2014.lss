@@ -1,0 +1,1375 @@
+
+UoM DSO Firmware 2014.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         000005d0  00000000  00000000  00000054  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .data         00000000  00800060  00800060  00000624  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .comment      00000030  00000000  00000000  00000624  2**0
+                  CONTENTS, READONLY
+  3 .note.gnu.avr.deviceinfo 0000003c  00000000  00000000  00000654  2**2
+                  CONTENTS, READONLY
+  4 .debug_aranges 00000040  00000000  00000000  00000690  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_info   00000bfb  00000000  00000000  000006d0  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_abbrev 000005fc  00000000  00000000  000012cb  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_line   0000084d  00000000  00000000  000018c7  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_frame  00000074  00000000  00000000  00002114  2**2
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_str    00000498  00000000  00000000  00002188  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_loc    00000659  00000000  00000000  00002620  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_ranges 00000030  00000000  00000000  00002c79  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	0c 94 63 00 	jmp	0xc6	; 0xc6 <__ctors_end>
+   4:	0c 94 6d 00 	jmp	0xda	; 0xda <__bad_interrupt>
+   8:	0c 94 6d 00 	jmp	0xda	; 0xda <__bad_interrupt>
+   c:	0c 94 6d 00 	jmp	0xda	; 0xda <__bad_interrupt>
+  10:	0c 94 6d 00 	jmp	0xda	; 0xda <__bad_interrupt>
+  14:	0c 94 6d 00 	jmp	0xda	; 0xda <__bad_interrupt>
+  18:	0c 94 6d 00 	jmp	0xda	; 0xda <__bad_interrupt>
+  1c:	0c 94 6d 00 	jmp	0xda	; 0xda <__bad_interrupt>
+  20:	0c 94 6d 00 	jmp	0xda	; 0xda <__bad_interrupt>
+  24:	0c 94 6d 00 	jmp	0xda	; 0xda <__bad_interrupt>
+  28:	0c 94 6d 00 	jmp	0xda	; 0xda <__bad_interrupt>
+  2c:	0c 94 6d 00 	jmp	0xda	; 0xda <__bad_interrupt>
+  30:	0c 94 6d 00 	jmp	0xda	; 0xda <__bad_interrupt>
+  34:	0c 94 6d 00 	jmp	0xda	; 0xda <__bad_interrupt>
+  38:	0c 94 6d 00 	jmp	0xda	; 0xda <__bad_interrupt>
+  3c:	0c 94 6d 00 	jmp	0xda	; 0xda <__bad_interrupt>
+  40:	0c 94 6d 00 	jmp	0xda	; 0xda <__bad_interrupt>
+  44:	0c 94 6d 00 	jmp	0xda	; 0xda <__bad_interrupt>
+  48:	0c 94 6d 00 	jmp	0xda	; 0xda <__bad_interrupt>
+  4c:	0c 94 6d 00 	jmp	0xda	; 0xda <__bad_interrupt>
+  50:	0c 94 6d 00 	jmp	0xda	; 0xda <__bad_interrupt>
+  54:	62 01       	movw	r12, r4
+  56:	64 02       	muls	r22, r20
+  58:	1a 01       	movw	r2, r20
+  5a:	1a 01       	movw	r2, r20
+  5c:	1a 01       	movw	r2, r20
+  5e:	1a 01       	movw	r2, r20
+  60:	1a 01       	movw	r2, r20
+  62:	1a 01       	movw	r2, r20
+  64:	1a 01       	movw	r2, r20
+  66:	1a 01       	movw	r2, r20
+  68:	1a 01       	movw	r2, r20
+  6a:	1a 01       	movw	r2, r20
+  6c:	1a 01       	movw	r2, r20
+  6e:	1a 01       	movw	r2, r20
+  70:	1a 01       	movw	r2, r20
+  72:	1a 01       	movw	r2, r20
+  74:	1a 01       	movw	r2, r20
+  76:	1a 01       	movw	r2, r20
+  78:	1a 01       	movw	r2, r20
+  7a:	1a 01       	movw	r2, r20
+  7c:	1a 01       	movw	r2, r20
+  7e:	1a 01       	movw	r2, r20
+  80:	1a 01       	movw	r2, r20
+  82:	1a 01       	movw	r2, r20
+  84:	f7 01       	movw	r30, r14
+  86:	1a 01       	movw	r2, r20
+  88:	1a 01       	movw	r2, r20
+  8a:	1a 01       	movw	r2, r20
+  8c:	1a 01       	movw	r2, r20
+  8e:	1a 01       	movw	r2, r20
+  90:	1a 01       	movw	r2, r20
+  92:	cf 01       	movw	r24, r30
+  94:	5e 01       	movw	r10, r28
+  96:	fd 01       	movw	r30, r26
+  98:	1a 01       	movw	r2, r20
+  9a:	1a 01       	movw	r2, r20
+  9c:	79 02       	muls	r23, r25
+  9e:	1a 01       	movw	r2, r20
+  a0:	1a 01       	movw	r2, r20
+  a2:	74 01       	movw	r14, r8
+  a4:	1a 01       	movw	r2, r20
+  a6:	1a 01       	movw	r2, r20
+  a8:	1a 01       	movw	r2, r20
+  aa:	eb 01       	movw	r28, r22
+  ac:	1a 01       	movw	r2, r20
+  ae:	86 01       	movw	r16, r12
+  b0:	1a 01       	movw	r2, r20
+  b2:	1a 01       	movw	r2, r20
+  b4:	8b 01       	movw	r16, r22
+  b6:	90 02       	muls	r25, r16
+  b8:	6d 01       	movw	r12, r26
+  ba:	1a 01       	movw	r2, r20
+  bc:	2a 01       	movw	r4, r20
+  be:	1a 01       	movw	r2, r20
+  c0:	1a 01       	movw	r2, r20
+  c2:	1a 01       	movw	r2, r20
+  c4:	f1 01       	movw	r30, r2
+
+000000c6 <__ctors_end>:
+  c6:	11 24       	eor	r1, r1
+  c8:	1f be       	out	0x3f, r1	; 63
+  ca:	cf e5       	ldi	r28, 0x5F	; 95
+  cc:	d4 e0       	ldi	r29, 0x04	; 4
+  ce:	de bf       	out	0x3e, r29	; 62
+  d0:	cd bf       	out	0x3d, r28	; 61
+  d2:	0e 94 b1 00 	call	0x162	; 0x162 <main>
+  d6:	0c 94 e6 02 	jmp	0x5cc	; 0x5cc <_exit>
+
+000000da <__bad_interrupt>:
+  da:	0c 94 00 00 	jmp	0	; 0x0 <__vectors>
+
+000000de <put>:
+}
+
+//send byte through UART
+void put(byte value)
+{
+	TX_CLEAR;
+  de:	5e 9a       	sbi	0x0b, 6	; 11
+	TX_BYTE = value;
+  e0:	8c b9       	out	0x0c, r24	; 12
+	WAIT_FOR_TX;
+  e2:	5e 9b       	sbis	0x0b, 6	; 11
+  e4:	fe cf       	rjmp	.-4      	; 0xe2 <put+0x4>
+	return;
+}
+  e6:	08 95       	ret
+
+000000e8 <spi_put>:
+
+//send data to DAC using SPI
+void spi_put(byte value)
+{
+	int spi_counter = 0;
+	SCS(LOW);
+  e8:	c4 98       	cbi	0x18, 4	; 24
+	SCK(LOW);
+  ea:	c7 98       	cbi	0x18, 7	; 24
+	for(spi_counter = 16; spi_counter > 0; spi_counter--)
+  ec:	20 e1       	ldi	r18, 0x10	; 16
+  ee:	30 e0       	ldi	r19, 0x00	; 0
+	{
+		SCK(LOW);
+  f0:	c7 98       	cbi	0x18, 7	; 24
+		if(spi_counter == 16)
+  f2:	20 31       	cpi	r18, 0x10	; 16
+  f4:	31 05       	cpc	r19, r1
+  f6:	11 f4       	brne	.+4      	; 0xfc <spi_put+0x14>
+			SDO(LOW);	//Run this command
+  f8:	c5 98       	cbi	0x18, 5	; 24
+  fa:	0a c0       	rjmp	.+20     	; 0x110 <spi_put+0x28>
+		if(spi_counter == 15)
+  fc:	2f 30       	cpi	r18, 0x0F	; 15
+  fe:	31 05       	cpc	r19, r1
+ 100:	11 f4       	brne	.+4      	; 0x106 <spi_put+0x1e>
+			SDO(LOW);	//Unbuffered
+ 102:	c5 98       	cbi	0x18, 5	; 24
+ 104:	0d c0       	rjmp	.+26     	; 0x120 <spi_put+0x38>
+		if(spi_counter == 14)
+ 106:	2e 30       	cpi	r18, 0x0E	; 14
+ 108:	31 05       	cpc	r19, r1
+ 10a:	11 f4       	brne	.+4      	; 0x110 <spi_put+0x28>
+			SDO(HIGH);	//Vref x 1
+ 10c:	c5 9a       	sbi	0x18, 5	; 24
+ 10e:	11 c0       	rjmp	.+34     	; 0x132 <spi_put+0x4a>
+		if(spi_counter == 13)
+ 110:	2d 30       	cpi	r18, 0x0D	; 13
+ 112:	31 05       	cpc	r19, r1
+ 114:	29 f4       	brne	.+10     	; 0x120 <spi_put+0x38>
+			SDO(HIGH);	//Active mode
+ 116:	c5 9a       	sbi	0x18, 5	; 24
+			else
+				SDO(LOW);
+			value <<= 1;
+		}
+		wait(10);
+		SCK(HIGH);
+ 118:	c7 9a       	sbi	0x18, 7	; 24
+void spi_put(byte value)
+{
+	int spi_counter = 0;
+	SCS(LOW);
+	SCK(LOW);
+	for(spi_counter = 16; spi_counter > 0; spi_counter--)
+ 11a:	21 50       	subi	r18, 0x01	; 1
+ 11c:	31 09       	sbc	r19, r1
+ 11e:	e8 cf       	rjmp	.-48     	; 0xf0 <spi_put+0x8>
+		if(spi_counter == 14)
+			SDO(HIGH);	//Vref x 1
+		if(spi_counter == 13)
+			SDO(HIGH);	//Active mode
+
+		if(spi_counter < 13)
+ 120:	2d 30       	cpi	r18, 0x0D	; 13
+ 122:	31 05       	cpc	r19, r1
+ 124:	34 f4       	brge	.+12     	; 0x132 <spi_put+0x4a>
+		{
+			if((value & 0x80)==0x80)
+ 126:	88 23       	and	r24, r24
+ 128:	14 f4       	brge	.+4      	; 0x12e <spi_put+0x46>
+				SDO(HIGH);
+ 12a:	c5 9a       	sbi	0x18, 5	; 24
+ 12c:	01 c0       	rjmp	.+2      	; 0x130 <spi_put+0x48>
+			else
+				SDO(LOW);
+ 12e:	c5 98       	cbi	0x18, 5	; 24
+			value <<= 1;
+ 130:	88 0f       	add	r24, r24
+		}
+		wait(10);
+		SCK(HIGH);
+ 132:	c7 9a       	sbi	0x18, 7	; 24
+void spi_put(byte value)
+{
+	int spi_counter = 0;
+	SCS(LOW);
+	SCK(LOW);
+	for(spi_counter = 16; spi_counter > 0; spi_counter--)
+ 134:	21 50       	subi	r18, 0x01	; 1
+ 136:	31 09       	sbc	r19, r1
+ 138:	d9 f6       	brne	.-74     	; 0xf0 <spi_put+0x8>
+		wait(10);
+		SCK(HIGH);
+		wait(10);	
+	}
+	wait(10);
+	SCS(HIGH);
+ 13a:	c4 9a       	sbi	0x18, 4	; 24
+ 13c:	08 95       	ret
+
+0000013e <reverse_bit8>:
+}
+
+//reverses bit order in a byte if data bus is wired incorrectly
+unsigned char reverse_bit8(unsigned char x)
+{
+	x = ((x & 0x55) << 1) | ((x & 0xAA) >> 1);
+ 13e:	98 2f       	mov	r25, r24
+ 140:	95 75       	andi	r25, 0x55	; 85
+ 142:	29 2f       	mov	r18, r25
+ 144:	22 0f       	add	r18, r18
+ 146:	98 2f       	mov	r25, r24
+ 148:	9a 7a       	andi	r25, 0xAA	; 170
+ 14a:	96 95       	lsr	r25
+ 14c:	92 2b       	or	r25, r18
+	x = ((x & 0x33) << 2) | ((x & 0xCC) >> 2);
+ 14e:	89 2f       	mov	r24, r25
+ 150:	83 73       	andi	r24, 0x33	; 51
+ 152:	88 0f       	add	r24, r24
+ 154:	88 0f       	add	r24, r24
+ 156:	9c 7c       	andi	r25, 0xCC	; 204
+ 158:	96 95       	lsr	r25
+ 15a:	96 95       	lsr	r25
+ 15c:	89 2b       	or	r24, r25
+	return (x << 4) | (x >> 4);
+}
+ 15e:	82 95       	swap	r24
+ 160:	08 95       	ret
+
+00000162 <main>:
+
+//main function
+int main(void)
+{
+ 162:	cf 93       	push	r28
+ 164:	df 93       	push	r29
+ 166:	cd b7       	in	r28, 0x3d	; 61
+ 168:	de b7       	in	r29, 0x3e	; 62
+ 16a:	28 97       	sbiw	r28, 0x08	; 8
+ 16c:	0f b6       	in	r0, 0x3f	; 63
+ 16e:	f8 94       	cli
+ 170:	de bf       	out	0x3e, r29	; 62
+ 172:	0f be       	out	0x3f, r0	; 63
+ 174:	cd bf       	out	0x3d, r28	; 61
+unsigned int sample_count = 0;
+unsigned int sample_address = 0;
+unsigned int sample_total_length = 0;
+
+//Initalise IO direction and state
+RAM_READ_DDR(OUT);
+ 176:	8f 9a       	sbi	0x11, 7	; 17
+ADC_DATA_DDR(IN);		// data direction state corrected
+ 178:	1a ba       	out	0x1a, r1	; 26
+ENABLE_DDR(OUT);
+ 17a:	a1 9a       	sbi	0x14, 1	; 20
+// LED1_DDR(OUT);
+// LED1(ON);
+LED2_DDR(OUT);
+ 17c:	b8 9a       	sbi	0x17, 0	; 23
+LED2(OFF);
+ 17e:	c0 9a       	sbi	0x18, 0	; 24
+// LED3_DDR(OUT);
+// LED3(OFF);
+// LED4_DDR(OUT);
+// LED4(OFF);
+SDO_DDR(OUT);
+ 180:	bd 9a       	sbi	0x17, 5	; 23
+SCS_DDR(OUT);
+ 182:	bc 9a       	sbi	0x17, 4	; 23
+SCS(HIGH);
+ 184:	c4 9a       	sbi	0x18, 4	; 24
+SCK_DDR(OUT);
+ 186:	bf 9a       	sbi	0x17, 7	; 23
+PLLx2;
+ 188:	94 98       	cbi	0x12, 4	; 18
+ 18a:	8c 98       	cbi	0x11, 4	; 17
+ 18c:	93 98       	cbi	0x12, 3	; 18
+ 18e:	8b 98       	cbi	0x11, 3	; 17
+IN_CLK_DDR(OUT);
+ 190:	8d 9a       	sbi	0x11, 5	; 17
+SLOW_CLK_DDR(OUT);
+ 192:	a6 9a       	sbi	0x14, 6	; 20
+FILL_COMP_DDR(IN);
+ 194:	a7 98       	cbi	0x14, 7	; 20
+RX_DDR(IN);
+ 196:	88 98       	cbi	0x11, 0	; 17
+TX_DDR(OUT);
+ 198:	89 9a       	sbi	0x11, 1	; 17
+FORCE_DDR(OUT);
+ 19a:	a0 9a       	sbi	0x14, 0	; 20
+FORCE(OFF);
+ 19c:	a8 98       	cbi	0x15, 0	; 21
+TRIGGER_BTN_DDR(IN);
+ 19e:	ba 98       	cbi	0x17, 2	; 23
+TRIGGER_BTN(ON);
+ 1a0:	c2 9a       	sbi	0x18, 2	; 24
+EDGE_SWITCH_DDR(OUT);
+ 1a2:	8e 9a       	sbi	0x11, 6	; 17
+EDGE_SWITCH(OFF);
+ 1a4:	96 98       	cbi	0x12, 6	; 18
+
+//Initialise serial port
+UART_CONFIG1;
+ 1a6:	8a b1       	in	r24, 0x0a	; 10
+ 1a8:	88 61       	ori	r24, 0x18	; 24
+ 1aa:	8a b9       	out	0x0a, r24	; 10
+UART_CONFIG2;
+ 1ac:	80 b5       	in	r24, 0x20	; 32
+ 1ae:	86 68       	ori	r24, 0x86	; 134
+ 1b0:	80 bd       	out	0x20, r24	; 32
+SERIAL_SET_BAUD_RATE1(BAUDRATE);
+ 1b2:	10 bc       	out	0x20, r1	; 32
+SERIAL_SET_BAUD_RATE2(BAUDRATE);
+ 1b4:	8f e0       	ldi	r24, 0x0F	; 15
+ 1b6:	89 b9       	out	0x09, r24	; 9
+
+//Initialise 5Mhz counter
+TIMER_SETUP;
+ 1b8:	8f b5       	in	r24, 0x2f	; 47
+ 1ba:	80 64       	ori	r24, 0x40	; 64
+ 1bc:	8f bd       	out	0x2f, r24	; 47
+ 1be:	8e b5       	in	r24, 0x2e	; 46
+ 1c0:	89 60       	ori	r24, 0x09	; 9
+ 1c2:	8e bd       	out	0x2e, r24	; 46
+byte volts_per_div_ch1 = 1;
+byte volts_per_div_ch2 = 1;
+byte send_every_nth_sample = 1;
+byte sample_start_offset = 0;
+byte sample_length = 255;
+byte baud_rate1 = 1;
+ 1c4:	21 e0       	ldi	r18, 0x01	; 1
+ 1c6:	2b 83       	std	Y+3, r18	; 0x03
+byte sample_rate = 1;
+byte volts_per_div_ch1 = 1;
+byte volts_per_div_ch2 = 1;
+byte send_every_nth_sample = 1;
+byte sample_start_offset = 0;
+byte sample_length = 255;
+ 1c8:	3f ef       	ldi	r19, 0xFF	; 255
+ 1ca:	3c 83       	std	Y+4, r19	; 0x04
+byte offset_value = 0;
+byte sample_rate = 1;
+byte volts_per_div_ch1 = 1;
+byte volts_per_div_ch2 = 1;
+byte send_every_nth_sample = 1;
+byte sample_start_offset = 0;
+ 1cc:	31 2c       	mov	r3, r1
+byte trig_source = 'r';
+byte offset_value = 0;
+byte sample_rate = 1;
+byte volts_per_div_ch1 = 1;
+byte volts_per_div_ch2 = 1;
+byte send_every_nth_sample = 1;
+ 1ce:	66 24       	eor	r6, r6
+ 1d0:	63 94       	inc	r6
+byte ch1_trig_thresh = 127;
+byte ch2_trig_thresh = 127;
+byte trig_source = 'r';
+byte offset_value = 0;
+byte sample_rate = 1;
+byte volts_per_div_ch1 = 1;
+ 1d2:	81 e0       	ldi	r24, 0x01	; 1
+ 1d4:	8a 83       	std	Y+2, r24	; 0x02
+byte received = 0;
+byte ch1_trig_thresh = 127;
+byte ch2_trig_thresh = 127;
+byte trig_source = 'r';
+byte offset_value = 0;
+byte sample_rate = 1;
+ 1d6:	91 e0       	ldi	r25, 0x01	; 1
+ 1d8:	99 83       	std	Y+1, r25	; 0x01
+//Initalise variable and set defaults
+byte received = 0;
+byte ch1_trig_thresh = 127;
+byte ch2_trig_thresh = 127;
+byte trig_source = 'r';
+byte offset_value = 0;
+ 1da:	41 2c       	mov	r4, r1
+
+//Initalise variable and set defaults
+byte received = 0;
+byte ch1_trig_thresh = 127;
+byte ch2_trig_thresh = 127;
+byte trig_source = 'r';
+ 1dc:	22 e7       	ldi	r18, 0x72	; 114
+ 1de:	2d 83       	std	Y+5, r18	; 0x05
+int main(void)
+{
+
+//Initalise variable and set defaults
+byte received = 0;
+byte ch1_trig_thresh = 127;
+ 1e0:	0f 2e       	mov	r0, r31
+ 1e2:	ff e7       	ldi	r31, 0x7F	; 127
+ 1e4:	2f 2e       	mov	r2, r31
+ 1e6:	f0 2d       	mov	r31, r0
+//main function
+int main(void)
+{
+
+//Initalise variable and set defaults
+byte received = 0;
+ 1e8:	1e 82       	std	Y+6, r1	; 0x06
+				sample_total_length = (sample_length * 0xFF);
+				if (sample_count >= sample_total_length)
+					received = 'n';
+			}
+			RAM_READ(OFF);
+			break;
+ 1ea:	0e e6       	ldi	r16, 0x6E	; 110
+		case'f':
+			//set up trigger 
+			RAM_READ(OFF);
+			ENABLE_TRIGGER;
+			FORCE(ON);
+			FORCE(OFF);
+ 1ec:	71 2c       	mov	r7, r1
+			while(received != 'n')
+			{
+				received = RX_BYTE;
+				//make sure the capture begins
+				if (!capture_start && !CAPTURE_COMPLETE)
+					capture_start = TRUE;
+ 1ee:	11 e0       	ldi	r17, 0x01	; 1
+ 1f0:	21 c0       	rjmp	.+66     	; 0x234 <main+0xd2>
+while(1){
+
+ 	//wait until a new char arrives from the Serial
+	while(!RX_FULL){
+	 	//check if trigger button pressed
+		if(!TRIGGER_BTN_IN){
+ 1f2:	b2 99       	sbic	0x16, 2	; 22
+ 1f4:	1f c0       	rjmp	.+62     	; 0x234 <main+0xd2>
+	 		//set up trigger
+	 		RAM_READ(OFF);
+ 1f6:	97 98       	cbi	0x12, 7	; 18
+			ENABLE_TRIGGER;
+ 1f8:	a9 9a       	sbi	0x15, 1	; 21
+ 1fa:	a9 98       	cbi	0x15, 1	; 21
+			//force trigger to start in the event that the trigger circuit
+			//	is set up incorrectly
+	 		FORCE(ON);
+ 1fc:	a8 9a       	sbi	0x15, 0	; 21
+			FORCE(OFF);
+ 1fe:	a8 98       	cbi	0x15, 0	; 21
+			LED2(ON);
+ 200:	c0 98       	cbi	0x18, 0	; 24
+	 		capture_start = FALSE;
+	 		//check if user wants to exit wait
+	 		while(received != 'n') {
+ 202:	8e 81       	ldd	r24, Y+6	; 0x06
+ 204:	8e 36       	cpi	r24, 0x6E	; 110
+ 206:	71 f0       	breq	.+28     	; 0x224 <main+0xc2>
+ 208:	97 2d       	mov	r25, r7
+		 		received = RX_BYTE;
+ 20a:	8c b1       	in	r24, 0x0c	; 12
+		 		//make sure the capture begins
+		 		if (!capture_start && !CAPTURE_COMPLETE) capture_start = TRUE;
+ 20c:	91 11       	cpse	r25, r1
+ 20e:	cd c1       	rjmp	.+922    	; 0x5aa <__stack+0x14b>
+ 210:	9f 9b       	sbis	0x13, 7	; 19
+ 212:	ca c1       	rjmp	.+916    	; 0x5a8 <__stack+0x149>
+		 		if (CAPTURE_COMPLETE && capture_start){
+ 214:	23 b3       	in	r18, 0x13	; 19
+ 216:	04 c0       	rjmp	.+8      	; 0x220 <main+0xbe>
+			 		put ('C');
+ 218:	83 e4       	ldi	r24, 0x43	; 67
+ 21a:	0e 94 6f 00 	call	0xde	; 0xde <put>
+ 21e:	02 c0       	rjmp	.+4      	; 0x224 <main+0xc2>
+	 		FORCE(ON);
+			FORCE(OFF);
+			LED2(ON);
+	 		capture_start = FALSE;
+	 		//check if user wants to exit wait
+	 		while(received != 'n') {
+ 220:	8e 36       	cpi	r24, 0x6E	; 110
+ 222:	99 f7       	brne	.-26     	; 0x20a <main+0xa8>
+		 		if (CAPTURE_COMPLETE && capture_start){
+			 		put ('C');
+			 		received = 'n';
+		 		}
+	 		}
+			LED2(OFF);
+ 224:	c0 9a       	sbi	0x18, 0	; 24
+ 226:	0e 83       	std	Y+6, r16	; 0x06
+ 228:	05 c0       	rjmp	.+10     	; 0x234 <main+0xd2>
+				volts_per_div_ch1 = '2';
+			}
+			if(received == '3')
+			{
+				//set div mux to 19.5mv/bit
+				volts_per_div_ch1 = '3';
+ 22a:	93 e3       	ldi	r25, 0x33	; 51
+ 22c:	9a 83       	std	Y+2, r25	; 0x02
+ 22e:	02 c0       	rjmp	.+4      	; 0x234 <main+0xd2>
+			}
+			if(received == '4')
+			{
+				//set div mux to 39mv/bit
+				volts_per_div_ch1 = '4';
+ 230:	24 e3       	ldi	r18, 0x34	; 52
+ 232:	2a 83       	std	Y+2, r18	; 0x02
+
+//main program loop
+while(1){
+
+ 	//wait until a new char arrives from the Serial
+	while(!RX_FULL){
+ 234:	5f 9b       	sbis	0x0b, 7	; 11
+ 236:	dd cf       	rjmp	.-70     	; 0x1f2 <main+0x90>
+			LED2(OFF);
+		}
+	}
+ 	
+ 	//get the received byte from Serial
+ 	received = RX_BYTE;
+ 238:	3c b1       	in	r19, 0x0c	; 12
+ 23a:	3e 83       	std	Y+6, r19	; 0x06
+
+ 	//process received command
+  	switch(received)
+ 23c:	83 2f       	mov	r24, r19
+ 23e:	90 e0       	ldi	r25, 0x00	; 0
+ 240:	fc 01       	movw	r30, r24
+ 242:	e2 54       	subi	r30, 0x42	; 66
+ 244:	f1 09       	sbc	r31, r1
+ 246:	e9 33       	cpi	r30, 0x39	; 57
+ 248:	f1 05       	cpc	r31, r1
+ 24a:	a0 f7       	brcc	.-24     	; 0x234 <main+0xd2>
+ 24c:	e6 5d       	subi	r30, 0xD6	; 214
+ 24e:	ff 4f       	sbci	r31, 0xFF	; 255
+ 250:	0c 94 e0 02 	jmp	0x5c0	; 0x5c0 <__tablejump2__>
+  	{
+		//version number
+		case'v':
+			put ('D');
+ 254:	84 e4       	ldi	r24, 0x44	; 68
+ 256:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put ('S');
+ 25a:	83 e5       	ldi	r24, 0x53	; 83
+ 25c:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put ('O');
+ 260:	8f e4       	ldi	r24, 0x4F	; 79
+ 262:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put (' ');
+ 266:	80 e2       	ldi	r24, 0x20	; 32
+ 268:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put ('V');
+ 26c:	86 e5       	ldi	r24, 0x56	; 86
+ 26e:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put ('e');
+ 272:	85 e6       	ldi	r24, 0x65	; 101
+ 274:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put ('r');
+ 278:	82 e7       	ldi	r24, 0x72	; 114
+ 27a:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put ('s');
+ 27e:	83 e7       	ldi	r24, 0x73	; 115
+ 280:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put ('i');
+ 284:	89 e6       	ldi	r24, 0x69	; 105
+ 286:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put ('o');
+ 28a:	8f e6       	ldi	r24, 0x6F	; 111
+ 28c:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put ('n');
+ 290:	80 2f       	mov	r24, r16
+ 292:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put (' ');
+ 296:	80 e2       	ldi	r24, 0x20	; 32
+ 298:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put ('1');
+ 29c:	81 e3       	ldi	r24, 0x31	; 49
+ 29e:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put ('.');
+ 2a2:	8e e2       	ldi	r24, 0x2E	; 46
+ 2a4:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put ('1');
+ 2a8:	81 e3       	ldi	r24, 0x31	; 49
+ 2aa:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put ('\n');
+ 2ae:	8a e0       	ldi	r24, 0x0A	; 10
+ 2b0:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put ('\r');
+ 2b4:	8d e0       	ldi	r24, 0x0D	; 13
+ 2b6:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			break;
+ 2ba:	bc cf       	rjmp	.-136    	; 0x234 <main+0xd2>
+	
+		//send current baud rate
+		case'b':
+			put (baud_rate1);
+ 2bc:	8b 81       	ldd	r24, Y+3	; 0x03
+ 2be:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			break;
+ 2c2:	b8 cf       	rjmp	.-144    	; 0x234 <main+0xd2>
+	
+		case 'B':
+			//switch to double speed UART
+			//baud rate 250000
+			if (baud_rate1==1) {
+ 2c4:	8b 81       	ldd	r24, Y+3	; 0x03
+ 2c6:	81 30       	cpi	r24, 0x01	; 1
+ 2c8:	09 f0       	breq	.+2      	; 0x2cc <main+0x16a>
+ 2ca:	b4 cf       	rjmp	.-152    	; 0x234 <main+0xd2>
+				UART_HIGH_SPEED(ON);
+ 2cc:	59 9a       	sbi	0x0b, 1	; 11
+				SERIAL_SET_BAUD_RATE1_HIGH;
+ 2ce:	10 bc       	out	0x20, r1	; 32
+				SERIAL_SET_BAUD_RATE2_HIGH;
+ 2d0:	94 e0       	ldi	r25, 0x04	; 4
+ 2d2:	99 b9       	out	0x09, r25	; 9
+				baud_rate1 = 2;
+ 2d4:	22 e0       	ldi	r18, 0x02	; 2
+ 2d6:	2b 83       	std	Y+3, r18	; 0x03
+ 2d8:	ad cf       	rjmp	.-166    	; 0x234 <main+0xd2>
+			}
+			break;
+
+		//channel 1 trigger threshold
+		case't':
+			WAIT_FOR_RX;
+ 2da:	5f 9b       	sbis	0x0b, 7	; 11
+ 2dc:	fe cf       	rjmp	.-4      	; 0x2da <main+0x178>
+			ch1_trig_thresh = RX_BYTE;
+ 2de:	2c b0       	in	r2, 0x0c	; 12
+			spi_put(ch1_trig_thresh);
+ 2e0:	82 2d       	mov	r24, r2
+ 2e2:	0e 94 74 00 	call	0xe8	; 0xe8 <spi_put>
+			break;
+ 2e6:	a6 cf       	rjmp	.-180    	; 0x234 <main+0xd2>
+
+		//trigger source
+		case'i':
+			WAIT_FOR_RX;
+ 2e8:	5f 9b       	sbis	0x0b, 7	; 11
+ 2ea:	fe cf       	rjmp	.-4      	; 0x2e8 <main+0x186>
+			received = RX_BYTE;
+ 2ec:	9c b1       	in	r25, 0x0c	; 12
+ 2ee:	9e 83       	std	Y+6, r25	; 0x06
+			//trigger source channel 1 rising edge
+			if(received == 'r')
+ 2f0:	92 37       	cpi	r25, 0x72	; 114
+ 2f2:	21 f4       	brne	.+8      	; 0x2fc <main+0x19a>
+			{
+				trig_source = 'r';
+				EDGE_SWITCH(OFF);
+ 2f4:	96 98       	cbi	0x12, 6	; 18
+			WAIT_FOR_RX;
+			received = RX_BYTE;
+			//trigger source channel 1 rising edge
+			if(received == 'r')
+			{
+				trig_source = 'r';
+ 2f6:	22 e7       	ldi	r18, 0x72	; 114
+ 2f8:	2d 83       	std	Y+5, r18	; 0x05
+ 2fa:	9c cf       	rjmp	.-200    	; 0x234 <main+0xd2>
+				EDGE_SWITCH(OFF);
+			}
+			//trigger source channel 1 falling edge
+			if(received == 'f')
+ 2fc:	3e 81       	ldd	r19, Y+6	; 0x06
+ 2fe:	36 36       	cpi	r19, 0x66	; 102
+ 300:	09 f0       	breq	.+2      	; 0x304 <main+0x1a2>
+ 302:	98 cf       	rjmp	.-208    	; 0x234 <main+0xd2>
+			{
+				trig_source = 'f';
+				EDGE_SWITCH(ON);
+ 304:	96 9a       	sbi	0x12, 6	; 18
+				EDGE_SWITCH(OFF);
+			}
+			//trigger source channel 1 falling edge
+			if(received == 'f')
+			{
+				trig_source = 'f';
+ 306:	86 e6       	ldi	r24, 0x66	; 102
+ 308:	8d 83       	std	Y+5, r24	; 0x05
+ 30a:	94 cf       	rjmp	.-216    	; 0x234 <main+0xd2>
+			break;
+	
+			
+		//set the offset value 
+		case'o':
+			WAIT_FOR_RX;
+ 30c:	5f 9b       	sbis	0x0b, 7	; 11
+ 30e:	fe cf       	rjmp	.-4      	; 0x30c <main+0x1aa>
+			received = RX_BYTE;
+ 310:	4c b0       	in	r4, 0x0c	; 12
+ 312:	4e 82       	std	Y+6, r4	; 0x06
+			offset_value = received;
+			break;
+ 314:	8f cf       	rjmp	.-226    	; 0x234 <main+0xd2>
+
+		//set sampling rate
+		case'r':
+			WAIT_FOR_RX;
+ 316:	5f 9b       	sbis	0x0b, 7	; 11
+ 318:	fe cf       	rjmp	.-4      	; 0x316 <main+0x1b4>
+			received = RX_BYTE;
+ 31a:	9c b1       	in	r25, 0x0c	; 12
+ 31c:	9e 83       	std	Y+6, r25	; 0x06
+			if(received == '1')
+ 31e:	91 33       	cpi	r25, 0x31	; 49
+ 320:	49 f4       	brne	.+18     	; 0x334 <main+0x1d2>
+			{
+				//set PLL to 25ns sample time
+				CLOCK_DIVIDER(0);
+ 322:	1b bc       	out	0x2b, r1	; 43
+ 324:	1a bc       	out	0x2a, r1	; 42
+				sample_rate = '1';
+				PLLx8;			
+ 326:	94 9a       	sbi	0x12, 4	; 18
+ 328:	8c 9a       	sbi	0x11, 4	; 17
+ 32a:	93 9a       	sbi	0x12, 3	; 18
+ 32c:	8b 9a       	sbi	0x11, 3	; 17
+			received = RX_BYTE;
+			if(received == '1')
+			{
+				//set PLL to 25ns sample time
+				CLOCK_DIVIDER(0);
+				sample_rate = '1';
+ 32e:	21 e3       	ldi	r18, 0x31	; 49
+ 330:	29 83       	std	Y+1, r18	; 0x01
+ 332:	18 c0       	rjmp	.+48     	; 0x364 <main+0x202>
+				PLLx8;			
+			}
+			if(received == '2')
+ 334:	3e 81       	ldd	r19, Y+6	; 0x06
+ 336:	32 33       	cpi	r19, 0x32	; 50
+ 338:	49 f4       	brne	.+18     	; 0x34c <main+0x1ea>
+			{
+				//set PLL to 50ns sample time
+				sample_rate = '2';
+				CLOCK_DIVIDER(0);
+ 33a:	1b bc       	out	0x2b, r1	; 43
+ 33c:	1a bc       	out	0x2a, r1	; 42
+				PLLx4;
+ 33e:	94 98       	cbi	0x12, 4	; 18
+ 340:	8c 9a       	sbi	0x11, 4	; 17
+ 342:	93 98       	cbi	0x12, 3	; 18
+ 344:	8b 9a       	sbi	0x11, 3	; 17
+				PLLx8;			
+			}
+			if(received == '2')
+			{
+				//set PLL to 50ns sample time
+				sample_rate = '2';
+ 346:	82 e3       	ldi	r24, 0x32	; 50
+ 348:	89 83       	std	Y+1, r24	; 0x01
+ 34a:	1a c0       	rjmp	.+52     	; 0x380 <main+0x21e>
+				CLOCK_DIVIDER(0);
+				PLLx4;
+			}
+			if(received == '3')
+ 34c:	9e 81       	ldd	r25, Y+6	; 0x06
+ 34e:	93 33       	cpi	r25, 0x33	; 51
+ 350:	49 f4       	brne	.+18     	; 0x364 <main+0x202>
+			{
+				//set PLL to 100ns sample time
+				sample_rate = '3';
+				CLOCK_DIVIDER(0);
+ 352:	1b bc       	out	0x2b, r1	; 43
+ 354:	1a bc       	out	0x2a, r1	; 42
+				PLLx2;
+ 356:	94 98       	cbi	0x12, 4	; 18
+ 358:	8c 98       	cbi	0x11, 4	; 17
+ 35a:	93 98       	cbi	0x12, 3	; 18
+ 35c:	8b 98       	cbi	0x11, 3	; 17
+				PLLx4;
+			}
+			if(received == '3')
+			{
+				//set PLL to 100ns sample time
+				sample_rate = '3';
+ 35e:	23 e3       	ldi	r18, 0x33	; 51
+ 360:	29 83       	std	Y+1, r18	; 0x01
+ 362:	68 cf       	rjmp	.-304    	; 0x234 <main+0xd2>
+				CLOCK_DIVIDER(0);
+				PLLx2;
+			}
+			if(received == '4')
+ 364:	3e 81       	ldd	r19, Y+6	; 0x06
+ 366:	34 33       	cpi	r19, 0x34	; 52
+ 368:	59 f4       	brne	.+22     	; 0x380 <main+0x21e>
+			{
+				//set PLL to 1us sample time
+				PLLx2;
+ 36a:	94 98       	cbi	0x12, 4	; 18
+ 36c:	8c 98       	cbi	0x11, 4	; 17
+ 36e:	93 98       	cbi	0x12, 3	; 18
+ 370:	8b 98       	cbi	0x11, 3	; 17
+				CLOCK_DIVIDER(10);
+ 372:	8a e0       	ldi	r24, 0x0A	; 10
+ 374:	90 e0       	ldi	r25, 0x00	; 0
+ 376:	9b bd       	out	0x2b, r25	; 43
+ 378:	8a bd       	out	0x2a, r24	; 42
+				sample_rate = '4';
+ 37a:	94 e3       	ldi	r25, 0x34	; 52
+ 37c:	99 83       	std	Y+1, r25	; 0x01
+ 37e:	5a cf       	rjmp	.-332    	; 0x234 <main+0xd2>
+			}
+			if(received == '5')
+ 380:	2e 81       	ldd	r18, Y+6	; 0x06
+ 382:	25 33       	cpi	r18, 0x35	; 53
+ 384:	09 f0       	breq	.+2      	; 0x388 <main+0x226>
+ 386:	56 cf       	rjmp	.-340    	; 0x234 <main+0xd2>
+			{
+				//set PLL to 1ms sample time
+				PLLx2;
+ 388:	94 98       	cbi	0x12, 4	; 18
+ 38a:	8c 98       	cbi	0x11, 4	; 17
+ 38c:	93 98       	cbi	0x12, 3	; 18
+ 38e:	8b 98       	cbi	0x11, 3	; 17
+				CLOCK_DIVIDER(10000);
+ 390:	80 e1       	ldi	r24, 0x10	; 16
+ 392:	97 e2       	ldi	r25, 0x27	; 39
+ 394:	9b bd       	out	0x2b, r25	; 43
+ 396:	8a bd       	out	0x2a, r24	; 42
+				sample_rate = '5';
+ 398:	95 e3       	ldi	r25, 0x35	; 53
+ 39a:	99 83       	std	Y+1, r25	; 0x01
+ 39c:	4b cf       	rjmp	.-362    	; 0x234 <main+0xd2>
+			break;
+	
+		//scaling for channel 1
+		//	Currently this is not implemented. Requires Advanced Track PCB.
+		case'a':
+			WAIT_FOR_RX;
+ 39e:	5f 9b       	sbis	0x0b, 7	; 11
+ 3a0:	fe cf       	rjmp	.-4      	; 0x39e <main+0x23c>
+			received = RX_BYTE;
+ 3a2:	2c b1       	in	r18, 0x0c	; 12
+ 3a4:	2e 83       	std	Y+6, r18	; 0x06
+			if(received == '1')
+ 3a6:	21 33       	cpi	r18, 0x31	; 49
+ 3a8:	31 f0       	breq	.+12     	; 0x3b6 <main+0x254>
+			{
+				//set div mux to 3.9mv/bit
+				volts_per_div_ch1 = '1';
+			}
+			if(received == '2')
+ 3aa:	22 33       	cpi	r18, 0x32	; 50
+ 3ac:	59 f0       	breq	.+22     	; 0x3c4 <main+0x262>
+			{
+				//set div mux to 7.8mv/bit
+				volts_per_div_ch1 = '2';
+			}
+			if(received == '3')
+ 3ae:	23 33       	cpi	r18, 0x33	; 51
+ 3b0:	09 f4       	brne	.+2      	; 0x3b4 <main+0x252>
+ 3b2:	3b cf       	rjmp	.-394    	; 0x22a <main+0xc8>
+ 3b4:	02 c0       	rjmp	.+4      	; 0x3ba <main+0x258>
+			WAIT_FOR_RX;
+			received = RX_BYTE;
+			if(received == '1')
+			{
+				//set div mux to 3.9mv/bit
+				volts_per_div_ch1 = '1';
+ 3b6:	31 e3       	ldi	r19, 0x31	; 49
+ 3b8:	3a 83       	std	Y+2, r19	; 0x02
+			if(received == '3')
+			{
+				//set div mux to 19.5mv/bit
+				volts_per_div_ch1 = '3';
+			}
+			if(received == '4')
+ 3ba:	8e 81       	ldd	r24, Y+6	; 0x06
+ 3bc:	84 33       	cpi	r24, 0x34	; 52
+ 3be:	09 f4       	brne	.+2      	; 0x3c2 <main+0x260>
+ 3c0:	37 cf       	rjmp	.-402    	; 0x230 <main+0xce>
+ 3c2:	02 c0       	rjmp	.+4      	; 0x3c8 <main+0x266>
+				volts_per_div_ch1 = '1';
+			}
+			if(received == '2')
+			{
+				//set div mux to 7.8mv/bit
+				volts_per_div_ch1 = '2';
+ 3c4:	92 e3       	ldi	r25, 0x32	; 50
+ 3c6:	9a 83       	std	Y+2, r25	; 0x02
+			if(received == '4')
+			{
+				//set div mux to 39mv/bit
+				volts_per_div_ch1 = '4';
+			}
+			if(received == '5')
+ 3c8:	2e 81       	ldd	r18, Y+6	; 0x06
+ 3ca:	25 33       	cpi	r18, 0x35	; 53
+ 3cc:	09 f0       	breq	.+2      	; 0x3d0 <main+0x26e>
+ 3ce:	32 cf       	rjmp	.-412    	; 0x234 <main+0xd2>
+			{
+				//set div mux to 390mv/bit
+				volts_per_div_ch1 = '5';
+ 3d0:	35 e3       	ldi	r19, 0x35	; 53
+ 3d2:	3a 83       	std	Y+2, r19	; 0x02
+ 3d4:	2f cf       	rjmp	.-418    	; 0x234 <main+0xd2>
+			}
+			break;
+
+		//send every nth sample when wanting to zoom out
+		case'm':
+			WAIT_FOR_RX;
+ 3d6:	5f 9b       	sbis	0x0b, 7	; 11
+ 3d8:	fe cf       	rjmp	.-4      	; 0x3d6 <main+0x274>
+			received = RX_BYTE;
+ 3da:	8c b1       	in	r24, 0x0c	; 12
+ 3dc:	8e 83       	std	Y+6, r24	; 0x06
+			send_every_nth_sample = received;
+ 3de:	68 2e       	mov	r6, r24
+			break;
+ 3e0:	29 cf       	rjmp	.-430    	; 0x234 <main+0xd2>
+
+		//skip samples at the start to zoom in on something interesting
+		case'z':
+			WAIT_FOR_RX;
+ 3e2:	5f 9b       	sbis	0x0b, 7	; 11
+ 3e4:	fe cf       	rjmp	.-4      	; 0x3e2 <main+0x280>
+			received = RX_BYTE;
+ 3e6:	9c b1       	in	r25, 0x0c	; 12
+ 3e8:	9e 83       	std	Y+6, r25	; 0x06
+			sample_start_offset = received;
+ 3ea:	39 2e       	mov	r3, r25
+			break;
+ 3ec:	23 cf       	rjmp	.-442    	; 0x234 <main+0xd2>
+
+		//set the number of samples you want to transmit
+		case'Z':
+			WAIT_FOR_RX;
+ 3ee:	5f 9b       	sbis	0x0b, 7	; 11
+ 3f0:	fe cf       	rjmp	.-4      	; 0x3ee <main+0x28c>
+			received = RX_BYTE;
+ 3f2:	2c b1       	in	r18, 0x0c	; 12
+ 3f4:	2e 83       	std	Y+6, r18	; 0x06
+			sample_length = received;
+ 3f6:	2c 83       	std	Y+4, r18	; 0x04
+			break;		
+ 3f8:	1d cf       	rjmp	.-454    	; 0x234 <main+0xd2>
+
+		//send back config data
+		case'c':
+			put ('t');
+ 3fa:	84 e7       	ldi	r24, 0x74	; 116
+ 3fc:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put (ch1_trig_thresh);
+ 400:	82 2d       	mov	r24, r2
+ 402:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put (' ');
+ 406:	80 e2       	ldi	r24, 0x20	; 32
+ 408:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put ('T');
+ 40c:	84 e5       	ldi	r24, 0x54	; 84
+ 40e:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put (ch2_trig_thresh);
+ 412:	8f e7       	ldi	r24, 0x7F	; 127
+ 414:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put (' ');
+ 418:	80 e2       	ldi	r24, 0x20	; 32
+ 41a:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put ('s');
+ 41e:	83 e7       	ldi	r24, 0x73	; 115
+ 420:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put (trig_source);
+ 424:	8d 81       	ldd	r24, Y+5	; 0x05
+ 426:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put (' ');
+ 42a:	80 e2       	ldi	r24, 0x20	; 32
+ 42c:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put ('o');
+ 430:	8f e6       	ldi	r24, 0x6F	; 111
+ 432:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put (offset_value);
+ 436:	84 2d       	mov	r24, r4
+ 438:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put (' ');
+ 43c:	80 e2       	ldi	r24, 0x20	; 32
+ 43e:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put ('r');
+ 442:	82 e7       	ldi	r24, 0x72	; 114
+ 444:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put (sample_rate);
+ 448:	89 81       	ldd	r24, Y+1	; 0x01
+ 44a:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put (' ');
+ 44e:	80 e2       	ldi	r24, 0x20	; 32
+ 450:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put ('a');
+ 454:	81 e6       	ldi	r24, 0x61	; 97
+ 456:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put (volts_per_div_ch1);
+ 45a:	8a 81       	ldd	r24, Y+2	; 0x02
+ 45c:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put (' ');
+ 460:	80 e2       	ldi	r24, 0x20	; 32
+ 462:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put ('A');
+ 466:	81 e4       	ldi	r24, 0x41	; 65
+ 468:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put (volts_per_div_ch2);
+ 46c:	81 e0       	ldi	r24, 0x01	; 1
+ 46e:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put (' ');
+ 472:	80 e2       	ldi	r24, 0x20	; 32
+ 474:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put ('m');
+ 478:	8d e6       	ldi	r24, 0x6D	; 109
+ 47a:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put (send_every_nth_sample);
+ 47e:	86 2d       	mov	r24, r6
+ 480:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put (' ');
+ 484:	80 e2       	ldi	r24, 0x20	; 32
+ 486:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put ('z');
+ 48a:	8a e7       	ldi	r24, 0x7A	; 122
+ 48c:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put (sample_start_offset);
+ 490:	83 2d       	mov	r24, r3
+ 492:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put (' ');
+ 496:	80 e2       	ldi	r24, 0x20	; 32
+ 498:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put ('Z');
+ 49c:	8a e5       	ldi	r24, 0x5A	; 90
+ 49e:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put (sample_length);
+ 4a2:	8c 81       	ldd	r24, Y+4	; 0x04
+ 4a4:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put (' ');
+ 4a8:	80 e2       	ldi	r24, 0x20	; 32
+ 4aa:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put ('b');
+ 4ae:	82 e6       	ldi	r24, 0x62	; 98
+ 4b0:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put (baud_rate1);
+ 4b4:	8b 81       	ldd	r24, Y+3	; 0x03
+ 4b6:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put ('\n');
+ 4ba:	8a e0       	ldi	r24, 0x0A	; 10
+ 4bc:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			put ('\r');
+ 4c0:	8d e0       	ldi	r24, 0x0D	; 13
+ 4c2:	0e 94 6f 00 	call	0xde	; 0xde <put>
+			break;
+ 4c6:	b6 ce       	rjmp	.-660    	; 0x234 <main+0xd2>
+
+		//start trigger
+		case'C':
+			//set up trigger 
+			RAM_READ(OFF);
+ 4c8:	97 98       	cbi	0x12, 7	; 18
+			ENABLE_TRIGGER;
+ 4ca:	a9 9a       	sbi	0x15, 1	; 21
+ 4cc:	a9 98       	cbi	0x15, 1	; 21
+ 4ce:	87 2d       	mov	r24, r7
+			//FORCE(OFF);
+			capture_start = FALSE;
+			//check if user wants to exit wait
+			while(received != 'n')
+			{
+				received = RX_BYTE;
+ 4d0:	3c b1       	in	r19, 0x0c	; 12
+ 4d2:	3e 83       	std	Y+6, r19	; 0x06
+				//make sure the capture begins
+				if (!capture_start && !CAPTURE_COMPLETE)
+ 4d4:	81 11       	cpse	r24, r1
+ 4d6:	6d c0       	rjmp	.+218    	; 0x5b2 <__stack+0x153>
+ 4d8:	9f 9b       	sbis	0x13, 7	; 19
+ 4da:	6a c0       	rjmp	.+212    	; 0x5b0 <__stack+0x151>
+					capture_start = TRUE;
+				if (CAPTURE_COMPLETE && capture_start)
+ 4dc:	93 b3       	in	r25, 0x13	; 19
+ 4de:	05 c0       	rjmp	.+10     	; 0x4ea <__stack+0x8b>
+				{
+					put ('C');
+ 4e0:	83 e4       	ldi	r24, 0x43	; 67
+ 4e2:	0e 94 6f 00 	call	0xde	; 0xde <put>
+ 4e6:	0e 83       	std	Y+6, r16	; 0x06
+ 4e8:	a5 ce       	rjmp	.-694    	; 0x234 <main+0xd2>
+			ENABLE_TRIGGER;
+			//FORCE(ON);
+			//FORCE(OFF);
+			capture_start = FALSE;
+			//check if user wants to exit wait
+			while(received != 'n')
+ 4ea:	9e 81       	ldd	r25, Y+6	; 0x06
+ 4ec:	9e 36       	cpi	r25, 0x6E	; 110
+ 4ee:	81 f7       	brne	.-32     	; 0x4d0 <__stack+0x71>
+ 4f0:	a1 ce       	rjmp	.-702    	; 0x234 <main+0xd2>
+			break;
+
+		//force start trigger
+		case'f':
+			//set up trigger 
+			RAM_READ(OFF);
+ 4f2:	97 98       	cbi	0x12, 7	; 18
+			ENABLE_TRIGGER;
+ 4f4:	a9 9a       	sbi	0x15, 1	; 21
+ 4f6:	a9 98       	cbi	0x15, 1	; 21
+			FORCE(ON);
+ 4f8:	a8 9a       	sbi	0x15, 0	; 21
+			FORCE(OFF);
+ 4fa:	a8 98       	cbi	0x15, 0	; 21
+ 4fc:	87 2d       	mov	r24, r7
+			capture_start = FALSE;
+			//check if user wants to exit wait
+			while(received != 'n')
+			{
+				received = RX_BYTE;
+ 4fe:	2c b1       	in	r18, 0x0c	; 12
+ 500:	2e 83       	std	Y+6, r18	; 0x06
+				//make sure the capture begins
+				if (!capture_start && !CAPTURE_COMPLETE)
+ 502:	81 11       	cpse	r24, r1
+ 504:	5a c0       	rjmp	.+180    	; 0x5ba <__stack+0x15b>
+ 506:	9f 9b       	sbis	0x13, 7	; 19
+ 508:	57 c0       	rjmp	.+174    	; 0x5b8 <__stack+0x159>
+					capture_start = TRUE;
+				if (CAPTURE_COMPLETE && capture_start)
+ 50a:	93 b3       	in	r25, 0x13	; 19
+ 50c:	05 c0       	rjmp	.+10     	; 0x518 <__stack+0xb9>
+				{
+					put ('C');
+ 50e:	83 e4       	ldi	r24, 0x43	; 67
+ 510:	0e 94 6f 00 	call	0xde	; 0xde <put>
+ 514:	0e 83       	std	Y+6, r16	; 0x06
+ 516:	8e ce       	rjmp	.-740    	; 0x234 <main+0xd2>
+			ENABLE_TRIGGER;
+			FORCE(ON);
+			FORCE(OFF);
+			capture_start = FALSE;
+			//check if user wants to exit wait
+			while(received != 'n')
+ 518:	3e 81       	ldd	r19, Y+6	; 0x06
+ 51a:	3e 36       	cpi	r19, 0x6E	; 110
+ 51c:	81 f7       	brne	.-32     	; 0x4fe <__stack+0x9f>
+ 51e:	8a ce       	rjmp	.-748    	; 0x234 <main+0xd2>
+
+		//send samples from channel 1
+		case's':
+			sample_count = 0;
+			sample_address = 0;
+			RAM_READ(ON);
+ 520:	97 9a       	sbi	0x12, 7	; 18
+			//check if user wants to exit send
+			while(received != 'n')
+			{
+				received = RX_BYTE;
+				//move to the valid sample
+				while (sample_address < (sample_start_offset * 0xFF))
+ 522:	8f ef       	ldi	r24, 0xFF	; 255
+ 524:	83 9d       	mul	r24, r3
+ 526:	70 01       	movw	r14, r0
+ 528:	11 24       	eor	r1, r1
+					SLOW_CLK(HIGH);
+					SLOW_CLK(LOW);
+					sample_address++;
+				}
+				//check if we have sent all the samples
+				sample_total_length = (sample_length * 0xFF);
+ 52a:	9c 81       	ldd	r25, Y+4	; 0x04
+ 52c:	89 9f       	mul	r24, r25
+ 52e:	50 01       	movw	r10, r0
+ 530:	11 24       	eor	r1, r1
+ 532:	18 86       	std	Y+8, r1	; 0x08
+ 534:	1f 82       	std	Y+7, r1	; 0x07
+ 536:	81 2c       	mov	r8, r1
+ 538:	91 2c       	mov	r9, r1
+ 53a:	cc 24       	eor	r12, r12
+ 53c:	ca 94       	dec	r12
+ 53e:	c6 0c       	add	r12, r6
+ 540:	d1 2c       	mov	r13, r1
+ 542:	2f ef       	ldi	r18, 0xFF	; 255
+ 544:	c2 1a       	sub	r12, r18
+ 546:	d2 0a       	sbc	r13, r18
+			sample_address = 0;
+			RAM_READ(ON);
+			//check if user wants to exit send
+			while(received != 'n')
+			{
+				received = RX_BYTE;
+ 548:	5c b0       	in	r5, 0x0c	; 12
+				//move to the valid sample
+				while (sample_address < (sample_start_offset * 0xFF))
+ 54a:	2f 81       	ldd	r18, Y+7	; 0x07
+ 54c:	38 85       	ldd	r19, Y+8	; 0x08
+ 54e:	2e 15       	cp	r18, r14
+ 550:	3f 05       	cpc	r19, r15
+ 552:	60 f4       	brcc	.+24     	; 0x56c <__stack+0x10d>
+				{
+					//increment physical counter
+					SLOW_CLK(HIGH);
+ 554:	ae 9a       	sbi	0x15, 6	; 21
+					SLOW_CLK(LOW);
+ 556:	ae 98       	cbi	0x15, 6	; 21
+					sample_address++;
+ 558:	8f 81       	ldd	r24, Y+7	; 0x07
+ 55a:	98 85       	ldd	r25, Y+8	; 0x08
+ 55c:	01 96       	adiw	r24, 0x01	; 1
+ 55e:	98 87       	std	Y+8, r25	; 0x08
+ 560:	8f 83       	std	Y+7, r24	; 0x07
+			//check if user wants to exit send
+			while(received != 'n')
+			{
+				received = RX_BYTE;
+				//move to the valid sample
+				while (sample_address < (sample_start_offset * 0xFF))
+ 562:	8e 15       	cp	r24, r14
+ 564:	9f 05       	cpc	r25, r15
+ 566:	b1 f7       	brne	.-20     	; 0x554 <__stack+0xf5>
+				{
+					//increment physical counter
+					SLOW_CLK(HIGH);
+					SLOW_CLK(LOW);
+					sample_address++;
+ 568:	f8 86       	std	Y+8, r15	; 0x08
+ 56a:	ef 82       	std	Y+7, r14	; 0x07
+				
+				// read sample byte NORMAL ORDER
+				//sample_out = CHANNEL_1_SAMPLE;
+				
+				// read sample byte REVERSE ORDER
+				sample_out = reverse_bit8(CHANNEL_1_SAMPLE);
+ 56c:	89 b3       	in	r24, 0x19	; 25
+ 56e:	0e 94 9f 00 	call	0x13e	; 0x13e <reverse_bit8>
+				
+				//write sample byte
+				put (sample_out);
+ 572:	0e 94 6f 00 	call	0xde	; 0xde <put>
+				sample_count++;
+ 576:	9f ef       	ldi	r25, 0xFF	; 255
+ 578:	89 1a       	sub	r8, r25
+ 57a:	99 0a       	sbc	r9, r25
+				//increment whilst skipping samples reused sample_out variable
+				for(sample_out = send_every_nth_sample; sample_out > 0; sample_out--)
+ 57c:	66 20       	and	r6, r6
+ 57e:	59 f0       	breq	.+22     	; 0x596 <__stack+0x137>
+ 580:	86 2d       	mov	r24, r6
+				{ 
+					//increment physical counter
+					SLOW_CLK(HIGH);
+ 582:	ae 9a       	sbi	0x15, 6	; 21
+					SLOW_CLK(LOW);
+ 584:	ae 98       	cbi	0x15, 6	; 21
+				
+				//write sample byte
+				put (sample_out);
+				sample_count++;
+				//increment whilst skipping samples reused sample_out variable
+				for(sample_out = send_every_nth_sample; sample_out > 0; sample_out--)
+ 586:	81 50       	subi	r24, 0x01	; 1
+ 588:	e1 f7       	brne	.-8      	; 0x582 <__stack+0x123>
+ 58a:	8f 81       	ldd	r24, Y+7	; 0x07
+ 58c:	98 85       	ldd	r25, Y+8	; 0x08
+ 58e:	8c 0d       	add	r24, r12
+ 590:	9d 1d       	adc	r25, r13
+ 592:	98 87       	std	Y+8, r25	; 0x08
+ 594:	8f 83       	std	Y+7, r24	; 0x07
+					SLOW_CLK(LOW);
+					sample_address++;
+				}
+				//check if we have sent all the samples
+				sample_total_length = (sample_length * 0xFF);
+				if (sample_count >= sample_total_length)
+ 596:	8a 14       	cp	r8, r10
+ 598:	9b 04       	cpc	r9, r11
+ 59a:	18 f4       	brcc	.+6      	; 0x5a2 <__stack+0x143>
+		case's':
+			sample_count = 0;
+			sample_address = 0;
+			RAM_READ(ON);
+			//check if user wants to exit send
+			while(received != 'n')
+ 59c:	9e e6       	ldi	r25, 0x6E	; 110
+ 59e:	59 12       	cpse	r5, r25
+ 5a0:	d3 cf       	rjmp	.-90     	; 0x548 <__stack+0xe9>
+				//check if we have sent all the samples
+				sample_total_length = (sample_length * 0xFF);
+				if (sample_count >= sample_total_length)
+					received = 'n';
+			}
+			RAM_READ(OFF);
+ 5a2:	97 98       	cbi	0x12, 7	; 18
+			break;
+ 5a4:	0e 83       	std	Y+6, r16	; 0x06
+ 5a6:	46 ce       	rjmp	.-884    	; 0x234 <main+0xd2>
+	 		capture_start = FALSE;
+	 		//check if user wants to exit wait
+	 		while(received != 'n') {
+		 		received = RX_BYTE;
+		 		//make sure the capture begins
+		 		if (!capture_start && !CAPTURE_COMPLETE) capture_start = TRUE;
+ 5a8:	91 2f       	mov	r25, r17
+		 		if (CAPTURE_COMPLETE && capture_start){
+ 5aa:	9f 9b       	sbis	0x13, 7	; 19
+ 5ac:	39 ce       	rjmp	.-910    	; 0x220 <main+0xbe>
+ 5ae:	34 ce       	rjmp	.-920    	; 0x218 <main+0xb6>
+			while(received != 'n')
+			{
+				received = RX_BYTE;
+				//make sure the capture begins
+				if (!capture_start && !CAPTURE_COMPLETE)
+					capture_start = TRUE;
+ 5b0:	81 2f       	mov	r24, r17
+				if (CAPTURE_COMPLETE && capture_start)
+ 5b2:	9f 9b       	sbis	0x13, 7	; 19
+ 5b4:	9a cf       	rjmp	.-204    	; 0x4ea <__stack+0x8b>
+ 5b6:	94 cf       	rjmp	.-216    	; 0x4e0 <__stack+0x81>
+			while(received != 'n')
+			{
+				received = RX_BYTE;
+				//make sure the capture begins
+				if (!capture_start && !CAPTURE_COMPLETE)
+					capture_start = TRUE;
+ 5b8:	81 2f       	mov	r24, r17
+				if (CAPTURE_COMPLETE && capture_start)
+ 5ba:	9f 9b       	sbis	0x13, 7	; 19
+ 5bc:	ad cf       	rjmp	.-166    	; 0x518 <__stack+0xb9>
+ 5be:	a7 cf       	rjmp	.-178    	; 0x50e <__stack+0xaf>
+
+000005c0 <__tablejump2__>:
+ 5c0:	ee 0f       	add	r30, r30
+ 5c2:	ff 1f       	adc	r31, r31
+ 5c4:	05 90       	lpm	r0, Z+
+ 5c6:	f4 91       	lpm	r31, Z
+ 5c8:	e0 2d       	mov	r30, r0
+ 5ca:	09 94       	ijmp
+
+000005cc <_exit>:
+ 5cc:	f8 94       	cli
+
+000005ce <__stop_program>:
+ 5ce:	ff cf       	rjmp	.-2      	; 0x5ce <__stop_program>
