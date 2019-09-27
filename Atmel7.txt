@@ -1,0 +1,6 @@
+https://www.youtube.com/watch?v=Af5P79IzcyE&index=2&list=PL9oLiXjCK1hbvn3Hpcg2TcgEkmsknG3DK
+avrdude -p m16 -c jtag1 -P com4 -F -U flash:w:"////.hex"
+avrdude -p m16 -c jtag1 -P com4 -tµ÷ÊÔ quiteÍË³ö
+PATH%PATH%; c:\\\\avrdude\;
+avrdude -p m16 -c jtag1 -P com3 -F -U flash:w:$(TargetDir)$(TargetName).hex:i
+E:\AVR\MyGameconsole\MyGameconsole\Debug
