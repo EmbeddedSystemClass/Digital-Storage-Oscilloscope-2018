@@ -1,0 +1,2 @@
+Added Pin To Net: NetName=CH1_BUF Pin=R8-3
+Change Net Name : Old Net Name=ADC_IN New Net Name=CH1_NORM

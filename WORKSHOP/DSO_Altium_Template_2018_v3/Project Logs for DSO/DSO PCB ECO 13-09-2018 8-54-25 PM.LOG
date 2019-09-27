@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=AVEE Pin=D6-A
+Removed Pin From Net: NetName=NetD6_K Pin=D6-K
+Removed Pin From Net: NetName=GND Pin=R19-1
+Removed Pin From Net: NetName=NetD6_K Pin=R19-2
+Added Pin To Net: NetName=NetD6_K Pin=D6-A
+Added Pin To Net: NetName=GND Pin=D6-K
+Added Pin To Net: NetName=NetD6_K Pin=R19-1
+Added Pin To Net: NetName=AVEE Pin=R19-2
+Change Net Name : Old Net Name=NetD6_K New Net Name=NetD6_A

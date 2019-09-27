@@ -1,0 +1,77 @@
+Removed Pin From Net: NetName=AVCC Pin=C16-1
+Removed Pin From Net: NetName=AGND Pin=C16-2
+Removed Pin From Net: NetName=AVCC Pin=C17-1
+Removed Pin From Net: NetName=AGND Pin=C17-2
+Removed Pin From Net: NetName=DVCC Pin=C18-1
+Removed Pin From Net: NetName=DGND Pin=C18-2
+Removed Pin From Net: NetName=AVCC Pin=U5-1
+Removed Pin From Net: NetName=T_CS Pin=U5-2
+Removed Pin From Net: NetName=SCK Pin=U5-3
+Removed Pin From Net: NetName=SDA Pin=U5-4
+Removed Pin From Net: NetName=TRIG_OUT Pin=U6-1
+Removed Pin From Net: NetName=DGND Pin=U6-4
+Removed Pin From Net: NetName=DVCC Pin=U6-8
+Added Component: Designator=Q1(SOT23)
+Added Component: Designator=Q2(SOT23)
+Added Component: Designator=Q3(SOT23)
+Added Component: Designator=R20(0805)
+Added Component: Designator=R21(0805)
+Added Component: Designator=R22(0805)
+Added Component: Designator=R23(0805)
+Added Component: Designator=R24(0805)
+Added Component: Designator=R25(0805)
+Added Component: Designator=R26(0805)
+Added Component: Designator=R27(0805)
+Added Pin To Net: NetName=5V_P Pin=C16-1
+Added Pin To Net: NetName=DGND Pin=C16-2
+Added Pin To Net: NetName=5V_P Pin=C17-1
+Added Pin To Net: NetName=DGND Pin=C17-2
+Added Pin To Net: NetName=AVCC Pin=C18-1
+Added Pin To Net: NetName=AGND Pin=C18-2
+Added Pin To Net: NetName=DVCC Pin=Q1-1
+Added Pin To Net: NetName=T_CS Pin=Q1-2
+Added Pin To Net: NetName=DVCC Pin=Q2-1
+Added Pin To Net: NetName=SCK Pin=Q2-2
+Added Pin To Net: NetName=DVCC Pin=Q3-1
+Added Pin To Net: NetName=SDA Pin=Q3-2
+Added Pin To Net: NetName=TRIG_OUT Pin=R20-1
+Added Pin To Net: NetName=TRIG_OUT Pin=R21-1
+Added Pin To Net: NetName=DGND Pin=R21-2
+Added Pin To Net: NetName=5V_P Pin=R22-2
+Added Pin To Net: NetName=DVCC Pin=R23-1
+Added Pin To Net: NetName=T_CS Pin=R23-2
+Added Pin To Net: NetName=5V_P Pin=R24-2
+Added Pin To Net: NetName=DVCC Pin=R25-1
+Added Pin To Net: NetName=SCK Pin=R25-2
+Added Pin To Net: NetName=5V_P Pin=R26-2
+Added Pin To Net: NetName=DVCC Pin=R27-1
+Added Pin To Net: NetName=SDA Pin=R27-2
+Added Pin To Net: NetName=5V_P Pin=U5-1
+Added Pin To Net: NetName=AGND Pin=U6-4
+Added Pin To Net: NetName=AVCC Pin=U6-8
+Added Pin To Net: NetName=NetR20_2 Pin=R20-2
+Added Pin To Net: NetName=NetR20_2 Pin=U6-1
+Added Net: Name=NetR20_2
+Added Pin To Net: NetName=SCK_U Pin=Q2-3
+Added Pin To Net: NetName=SCK_U Pin=R24-1
+Added Pin To Net: NetName=SCK_U Pin=U5-3
+Added Net: Name=SCK_U
+Added Pin To Net: NetName=SDA_U Pin=Q3-3
+Added Pin To Net: NetName=SDA_U Pin=R26-1
+Added Pin To Net: NetName=SDA_U Pin=U5-4
+Added Net: Name=SDA_U
+Added Pin To Net: NetName=T_CS_U Pin=Q1-3
+Added Pin To Net: NetName=T_CS_U Pin=R22-1
+Added Pin To Net: NetName=T_CS_U Pin=U5-2
+Added Net: Name=T_CS_U
+Added Member To Class: ClassName=U_DSO_Trig Member=Component Q1 RTR025N03TL
+Added Member To Class: ClassName=U_DSO_Trig Member=Component Q2 RTR025N03TL
+Added Member To Class: ClassName=U_DSO_Trig Member=Component Q3 RTR025N03TL
+Added Member To Class: ClassName=U_DSO_Trig Member=Component R20 170
+Added Member To Class: ClassName=U_DSO_Trig Member=Component R21 330
+Added Member To Class: ClassName=U_DSO_Trig Member=Component R22 10K
+Added Member To Class: ClassName=U_DSO_Trig Member=Component R23 10K
+Added Member To Class: ClassName=U_DSO_Trig Member=Component R24 10K
+Added Member To Class: ClassName=U_DSO_Trig Member=Component R25 10K
+Added Member To Class: ClassName=U_DSO_Trig Member=Component R26 10K
+Added Member To Class: ClassName=U_DSO_Trig Member=Component R27 10K

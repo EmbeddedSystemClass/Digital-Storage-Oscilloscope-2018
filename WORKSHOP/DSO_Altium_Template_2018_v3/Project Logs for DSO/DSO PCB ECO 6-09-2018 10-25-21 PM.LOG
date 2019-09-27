@@ -1,0 +1,43 @@
+Removed Pin From Net: NetName=GND Pin=P1-6
+Removed Pin From Net: NetName=FILL_COMP Pin=U11-11
+Removed Pin From Net: NetName=T_CS Pin=U11-12
+Removed Pin From Net: NetName=MUC_TRI Pin=U11-13
+Removed Pin From Net: NetName=SLOW_CLK Pin=U11-14
+Removed Pin From Net: NetName=IN_CLK Pin=U11-16
+Removed Pin From Net: NetName=FORCE Pin=U11-25
+Removed Pin From Net: NetName=Clk_S0 Pin=U11-40
+Removed Pin From Net: NetName=Clk_S1 Pin=U11-41
+Removed Pin From Net: NetName=EDGE_SW Pin=U11-42
+Added Component: Designator=D7(0805D-GREEN)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Reviewed by"; Value = "RM - 2018/08/05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "July-2002: Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "160-1423-1-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R27(0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Reviewed by"; Value = "RM - 2018/08/05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Suppler Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "330"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=ADC_EXT Pin=P1-6
+Added Pin To Net: NetName=ADC_EXT Pin=R27-1
+Added Pin To Net: NetName=Clk_S0 Pin=U11-12
+Added Pin To Net: NetName=Clk_S1 Pin=U11-13
+Added Pin To Net: NetName=IN_CLK Pin=U11-14
+Added Pin To Net: NetName=EDGE_SW Pin=U11-15
+Added Pin To Net: NetName=RAM_READ Pin=U11-16
+Added Pin To Net: NetName=FORCE Pin=U11-19
+Added Pin To Net: NetName=SLOW_CLK Pin=U11-25
+Added Pin To Net: NetName=FILL_COMP Pin=U11-26
+Added Pin To Net: NetName=MUC_TRI Pin=U11-42
+Added Pin To Net: NetName=T_CS Pin=U11-44
+Change Net Name : Old Net Name=MUC_TRI New Net Name=MCU_TRI
+Added Pin To Net: NetName=LED_TRI Pin=D7-A
+Added Pin To Net: NetName=LED_TRI Pin=U11-40
+Added Net: Name=LED_TRI
+Added Pin To Net: NetName=NetD7_K Pin=D7-K
+Added Pin To Net: NetName=NetD7_K Pin=R27-2
+Added Net: Name=NetD7_K
+Added Member To Class: ClassName=U_DSO_Control Member=Component D7 TX
+Added Member To Class: ClassName=U_DSO_Control Member=Component R27 330

@@ -1,0 +1,69 @@
+Removed Pin From Net: NetName=RX_ISO Pin=U13-2
+Removed Pin From Net: NetName=TX_ISO Pin=U13-3
+Removed Pin From Net: NetName=MCU_TX Pin=U13-6
+Removed Pin From Net: NetName=MCU_RX Pin=U13-7
+Added Component: Designator=C56(0805C)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Reviewed by"; Value = "RM - 2018/08/05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "July-2002: Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1uF"; VariantName = "[No Variations]"
+Added Component: Designator=C57(0805C)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Reviewed by"; Value = "RM - 2018/08/05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "July-2002: Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1uF"; VariantName = "[No Variations]"
+Added Component: Designator=R28(0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Reviewed by"; Value = "RM - 2018/08/05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Suppler Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "120"; VariantName = "[No Variations]"
+Added Component: Designator=R29(0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Reviewed by"; Value = "RM - 2018/08/05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Suppler Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "120"; VariantName = "[No Variations]"
+Added Component: Designator=R30(0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Reviewed by"; Value = "RM - 2018/08/05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Suppler Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "120"; VariantName = "[No Variations]"
+Added Component: Designator=R31(0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Reviewed by"; Value = "RM - 2018/08/05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Suppler Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "120"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=USBVCC Pin=C56-1
+Added Pin To Net: NetName=USBGND Pin=C56-2
+Added Pin To Net: NetName=DVCC Pin=C57-1
+Added Pin To Net: NetName=DGND Pin=C57-2
+Added Pin To Net: NetName=RX_ISO Pin=R28-2
+Added Pin To Net: NetName=MCU_RX Pin=R29-1
+Added Pin To Net: NetName=TX_ISO Pin=R30-2
+Added Pin To Net: NetName=MCU_TX Pin=R31-1
+Added Pin To Net: NetName=DGND Pin=U10-7
+Added Pin To Net: NetName=NetR28_1 Pin=R28-1
+Added Pin To Net: NetName=NetR28_1 Pin=U13-2
+Added Net: Name=NetR28_1
+Added Pin To Net: NetName=NetR29_2 Pin=R29-2
+Added Pin To Net: NetName=NetR29_2 Pin=U13-7
+Added Net: Name=NetR29_2
+Added Pin To Net: NetName=NetR30_1 Pin=R30-1
+Added Pin To Net: NetName=NetR30_1 Pin=U13-3
+Added Net: Name=NetR30_1
+Added Pin To Net: NetName=NetR31_2 Pin=R31-2
+Added Pin To Net: NetName=NetR31_2 Pin=U13-6
+Added Net: Name=NetR31_2
+Added Member To Class: ClassName=U_DSO_IO Member=Component C56 1uF
+Added Member To Class: ClassName=U_DSO_IO Member=Component C57 1uF
+Added Member To Class: ClassName=U_DSO_IO Member=Component R28 120
+Added Member To Class: ClassName=U_DSO_IO Member=Component R29 120
+Added Member To Class: ClassName=U_DSO_IO Member=Component R30 120
+Added Member To Class: ClassName=U_DSO_IO Member=Component R31 120

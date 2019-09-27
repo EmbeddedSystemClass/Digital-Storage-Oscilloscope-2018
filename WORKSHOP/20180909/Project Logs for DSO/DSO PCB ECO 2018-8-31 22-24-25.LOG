@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=CH1_NORM Pin=U6-3
+Added Pin To Net: NetName=REF_LS Pin=R11-2
+Change Net Name : Old Net Name=CH1_NORM New Net Name=ADC_IN
+Added Pin To Net: NetName=CH1_NORM Pin=R8-2
+Added Pin To Net: NetName=CH1_NORM Pin=U6-3
+Added Net: Name=CH1_NORM

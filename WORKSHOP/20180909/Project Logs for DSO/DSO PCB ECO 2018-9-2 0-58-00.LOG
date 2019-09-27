@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=AVCC Pin=D6-A
+Removed Pin From Net: NetName=NetD6_K Pin=D6-K
+Removed Pin From Net: NetName=AGND Pin=R17-1
+Removed Pin From Net: NetName=NetD6_K Pin=R17-2
+Added Component: Designator=D6(0805D-GREEN)
+Added Component: Designator=R17(0805)
+Added Pin To Net: NetName=NetD6_K Pin=D6-A
+Added Pin To Net: NetName=AGND Pin=D6-K
+Added Pin To Net: NetName=NetD6_K Pin=R17-1
+Added Pin To Net: NetName=AVCC Pin=R17-2
+Change Net Name : Old Net Name=NetD6_K New Net Name=NetD6_A

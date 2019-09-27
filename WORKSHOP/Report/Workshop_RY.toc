@@ -1,0 +1,11 @@
+\contentsline {section}{\numberline {I}Over whole Front-End Schematics}{ii}{section.1}
+\contentsline {section}{\numberline {II}Frequency and phase response graphs}{ii}{section.2}
+\contentsline {section}{\numberline {III}Input impedance graph}{iii}{section.3}
+\contentsline {section}{\numberline {IV}Power dissipation table and DC bias}{iii}{section.4}
+\contentsline {section}{\numberline {V}Time domain plot for a 10Mhz input}{iv}{section.5}
+\contentsline {section}{\numberline {VI}Circuits analysing and specification criteria}{v}{section.6}
+\contentsline {subsection}{\numberline {VI.1}Input Protection}{v}{subsection.6.1}
+\contentsline {subsection}{\numberline {VI.2}Input impedance and buffer}{vi}{subsection.6.2}
+\contentsline {subsection}{\numberline {VI.3}Low pass filter}{viii}{subsection.6.3}
+\contentsline {subsection}{\numberline {VI.4}Gain stage and level shifting filter}{x}{subsection.6.4}
+\contentsline {section}{\numberline {VII}Specifications Summary}{xi}{section.7}

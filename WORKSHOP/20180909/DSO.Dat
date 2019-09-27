@@ -1,0 +1,50 @@
+Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~DSO.PrjPCB|ReportField=ProjectFullPath~\\storage3.eng.unimelb.edu.au\Profile\Desktop\SED\DSO.PrjPCB|ReportField=Title~Bill of Materials For Project [DSO.PrjPCB] (No PCB Document Selected)|ReportField=TotalQuantity~127|ReportField=ReportTime~5:45:51 PM|ReportField=ReportDate~8/09/2018|ReportField=ReportDateTime~8/09/2018 5:45:51 PM|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~University of Melbourne|ReportField=ConfigurationParameters~|ReportField=ConfiguratorName~|ReportField=CurrentDate~8/09/2018|ReportField=CurrentTime~5:45:31 PM|ReportField=Date~|ReportField=DocumentFullPathAndName~\\storage3.eng.unimelb.edu.au\Profile\Desktop\SED\DSO_Top.SchDoc|ReportField=DocumentName~DSO_Top.SchDoc|ReportField=DocumentNumber~1|ReportField=DrawnBy~|ReportField=Engineer~Your Name Here|ReportField=ImagePath~|ReportField=IsUserConfigurable~|ReportField=ModifiedDate~7/09/2018|ReportField=Organization~|ReportField=ProjectName~DSO.PrjPCB|ReportField=Revision~0.1|ReportField=Rule~|ReportField=SheetNumber~3|ReportField=SheetTotal~11|ReportField=StudentNo~Student No.|ReportField=Time~|ReportField=Title~Schematic_Name|ReportField=Title_Project~Project_Title|ReportField=VersionControl_RevNumber~|ReportField=DataSourceFileName~DSO.PrjPCB|ReportField=DataSourceFullPath~\\storage3.eng.unimelb.edu.au\Profile\Desktop\SED\DSO.PrjPCB
+10pF|Capacitor|C1, C2|0805C|C|2
+4.7P|Capacitor|C3|0805C|C|1
+100nF|Capacitor|C4, C7, C8, C9, C10, C12, C14, C15, C17, C18, C19, C20, C21, C22, C23, C24, C27, C28, C29, C30, C31, C32, C33, C35, C36, C37, C38, C39, C40, C47, C48, C49, C51, C52, C54|0805C|C|35
+10uF|Capacitor|C5, C13, C16, C50, C53, C55, C56|0805C|C|7
+1P|Capacitor|C6|0805C|C|1
+100pf|Capacitor|C11|0805C|C|1
+18pF|Capacitor|C25, C26|0805C|C|2
+10uF|Capacitor|C41, C43, C45|0805|C|3
+100nF|Capacitor|C42, C44, C46|0805|C|3
+Diode|Diode|D1, D2|SOD-123|D|2
+TX|Light Emitting Diode|D3, D4, D6|0805D-GREEN|LED GREEN|3
+RX|Light Emitting Diode|D5, D7|0805D-RED|LED RED|2
+INPUT|BNC Straight|J1|BNC_VERT|BNC|1
+JTAG|JTAG_CON|J2|BOXEDVERT10|JTAG_CON|1
+USB|USB B Type Connector|J3|USBPLUG|USBPLUG|1
+300mA|Inductor|L1, L2, L3, L4, L5|0805|I|5
+Header 3x2|Header, 5-Pin|P1, P2|HDR3x2|Header 3x2|2
+RTR025N03TL|N-Channel MOSFET|Q1, Q2, Q3|SOT23|MOSFET-N|3
+510K|Resistor|R1, R3, R10|0805|R|3
+470|Resistor|R2|0805|R|1
+2.7K|Resistor|R4, R5|0805|R|2
+1K|Resistor|R6, R9, R14, R15, R16, R17, R18|0805|R|7
+39|Resistor|R7|0805|R|1
+2K|Resistor|R8|0805|R|1
+DIV_TRIM|Variable Resistor|R11, R19|RPOT|RV|2
+10k|Resistor|R12, R13, R22, R23, R24, R25, R26, R27|0805|R|8
+170|Resistor|R20|0805|R|1
+330|Resistor|R21|0805|R|1
+RESET|Momentary Push Button Switch 1P 1T 2pins|S1|SPST PB SWITCH SMD|SW_PB_1P1T4|1
+TRIG|Momentary Push Button Switch 1P 1T 2pins|S2|SPST PB SWITCH SMD|SW_PB_1P1T4|1
+INPUT|Pad|TP1, TP2, TP3|Testpoin|Test Point|3
++5V|Pad|TP4|PIN 1.8mm|WIRE|1
+GND|Pad|TP5|PIN 1.8mm|WIRE|1
+-5V|Pad|TP6|PIN 1.8mm|WIRE|1
+LT1819|OpAmp High Frequency Dual|U1, U2|SOIC-8|LT1819|2
+74HC541|(ADV) Octal Buffer, Line Driver|U3|SOT163-1_N|74HC541|1
+ADS830E|8-Bit, 60 MSPS ADC Single-Ended / Differential Input, Internal / External Reference and Programmble Input Range, -40 to 85 degC, 20-pin SOP (DBQ20), Green (RoHS & no Sb/Br)|U4|TI-DBQ20_L|ADS830E|1
+MCP4901|DAC 8bit SPI|U5|SOIC-8|MCP4901|1
+MAX9032|Dual Comparator|U6|SOIC-8|MAX9032|1
+74HC590|8-Bit Binary Counter Register|U7, U8|SOIC-16|74HC590|2
+CY7C1019D|SRAM 128k x 8|U9|TSOP-32|CY7C1019D|1
+PT7C4511|PLL Clock Multiplier|U10|SOIC-8|PT7C4511|1
+ATMEGA16|ATMEGA16 Microcontroller|U11|QFP-48|ATMEGA16|1
+FT232RL|USB to Serial bridge|U12|SSOP-28|FT232RL|1
+Si8421|Dual Channel Digital Isolator Both Ways|U13|SOIC-8|Si8421|1
+RD0505D|(ADV) DC to DC converter 5V in +-5V out|U14|SIP_NMG|RD0505D|1
+MCP1700T-3302E/MB|Low Quiescent Current LDO, 3-Pin SOT-89, Extended Temperature, Tape and Reel|U15|SOT89|MCP1700T|1
+XC9536XL-10VQ44C|FastFLASH XC900XL, 3.3V High-Performance 36 Macrocell CPLD, 34 User I/Os, 44-Pin VQFP, Speed Grade 10, Commercial Grade|U16|VQ44_L|XC9536XL-10VQG44C|1
+10Mhz|Crystal Oscillator|X1|XTAL_FLAT_SMD|XTAL|1

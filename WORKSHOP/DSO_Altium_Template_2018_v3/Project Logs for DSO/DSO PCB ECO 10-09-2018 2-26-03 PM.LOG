@@ -1,0 +1,8 @@
+Change Component Comment : Designator=C55 Old Comment=10uF New Comment=100nF
+Change component parameters: Designator = "C55"; Footprint = "0805C"; UniqueID = "\IDMXLJYC\EHISCNQL"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Reviewed by"; Value = "RM - 2018/08/05"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "July-2002: Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"

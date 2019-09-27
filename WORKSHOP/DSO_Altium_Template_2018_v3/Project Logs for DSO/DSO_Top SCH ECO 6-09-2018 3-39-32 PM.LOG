@@ -1,0 +1,9 @@
+Change Component Footprint: Designator=U4 Old Footprint=TI-DBQ20_L New Footprint=TI-DBQ20_L
+Change Component Footprint: Designator=U16 Old Footprint=VQ44_L New Footprint=VQ44_L
+Change Component Footprint: Designator=U16 Old Footprint=VQ44_L New Footprint=VQ44_L
+Change Component Footprint: Designator=U16 Old Footprint=VQ44_L New Footprint=VQ44_L
+Change Component Footprint: Designator=U16 Old Footprint=VQ44_L New Footprint=VQ44_L
+Change Component Footprint: Designator=U16 Old Footprint=VQ44_L New Footprint=VQ44_L
+Add Pin To Net: Pin=U6-2 Old Net=DAC_CS New Net=T_CS
+Add Pin To Net: Pin=U6-3 Old Net=DAC_SCK New Net=SCK
+Add Pin To Net: Pin=U6-4 Old Net=DAC_SDI New Net=SDA

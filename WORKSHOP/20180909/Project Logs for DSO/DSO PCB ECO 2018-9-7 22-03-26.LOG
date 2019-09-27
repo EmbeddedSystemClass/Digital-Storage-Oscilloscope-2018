@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=AGND Pin=N3-1
+Removed Member From Class: ClassName=U_DSO_Power Member=N3
+Added Pin To Net: NetName=AGND Pin=C16-2
+Added Pin To Net: NetName=AGND Pin=C17-2
+Added Pin To Net: NetName=AGND Pin=U5-5
+Added Pin To Net: NetName=AGND Pin=U5-7

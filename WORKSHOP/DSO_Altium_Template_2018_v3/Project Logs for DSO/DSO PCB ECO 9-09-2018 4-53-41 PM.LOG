@@ -1,0 +1,2 @@
+Added Pin To Net: NetName=RAM_READ Pin=U16-3
+Added Member To Class: ClassName=U_DSO_Clock Member=Component U10 PT7C4511

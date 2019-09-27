@@ -1,0 +1,5 @@
+Added Pin To Net: NetName=NetC1_2 Pin=R1-1
+Added Pin To Net: NetName=NetC1_2 Pin=R4-2
+Added Pin To Net: NetName=Out_filter Pin=R8-2
+Added Pin To Net: NetName=Out_filter Pin=TP1-1
+Change Net Name : Old Net Name=Out_filter New Net Name=CH1_BUF

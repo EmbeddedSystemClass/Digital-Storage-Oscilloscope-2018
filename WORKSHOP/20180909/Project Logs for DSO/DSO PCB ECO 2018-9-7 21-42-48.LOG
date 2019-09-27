@@ -1,0 +1,10 @@
+Added Component: Designator=L5(0805)
+Added Component: Designator=N3(NET-TIE)
+Added Pin To Net: NetName=AVCC Pin=L5-2
+Added Pin To Net: NetName=AGND Pin=N3-1
+Added Pin To Net: NetName=5V_D Pin=L5-1
+Added Net: Name=5V_D
+Added Pin To Net: NetName=5V_GND Pin=N3-0
+Added Net: Name=5V_GND
+Added Member To Class: ClassName=U_DSO_Power Member=Component L5 300mA
+Added Member To Class: ClassName=U_DSO_Power Member=Component N3 NET-TIE

@@ -1,0 +1,7 @@
+Added Component: Designator=F?(Fiducial)
+Add component. Clean all parameters for all variants
+Added Component: Designator=F?(Fiducial)
+Add component. Clean all parameters for all variants
+Added Member To Class: ClassName=U_DSO_Power Member=Component D5 TX
+Added Member To Class: ClassName=U_DSO_Control Member=Component F? Fiducial
+Added Member To Class: ClassName=U_DSO_CPLD Member=Component F? Fiducial

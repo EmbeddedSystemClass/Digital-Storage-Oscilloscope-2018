@@ -1,0 +1,6 @@
+Change Component Footprint: Designator=U4 Old Footprint=TI-DBQ20_L New Footprint=TI-DBQ20_L
+Change Component Footprint: Designator=U16 Old Footprint=VQ44_L New Footprint=VQ44_L
+Added Component: Designator=C50(0805C)
+Added Pin To Net: NetName=DVCC Pin=C50-1
+Added Pin To Net: NetName=DGND Pin=C50-2
+Added Member To Class: ClassName=U_DSO_Power Member=Component C50 10uF

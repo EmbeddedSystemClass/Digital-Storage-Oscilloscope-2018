@@ -1,0 +1,35 @@
+Removed Pin From Net: NetName=NetR7_2 Pin=R8-1
+Removed Pin From Net: NetName=NetR8_2 Pin=R8-2
+Removed Pin From Net: NetName=CH1_BUF Pin=R8-3
+Removed Pin From Net: NetName=AGND Pin=R11-1
+Removed Pin From Net: NetName=NetC11_2 Pin=R11-2
+Removed Pin From Net: NetName=REF_LS Pin=R11-3
+Change Component Footprint: Designator=R8 Old Footprint=RPOT New Footprint=0805
+Change Component Comment : Designator=C13 Old Comment=100nF New Comment=10uF
+Change Component Comment : Designator=R8 Old Comment=DIV_TRIM New Comment=2K
+Added Component: Designator=C52(0805C)
+Added Component: Designator=C53(0805C)
+Added Component: Designator=C54(0805C)
+Added Component: Designator=C55(0805C)
+Added Component: Designator=R19(RPOT)
+Added Pin To Net: NetName=AVEE Pin=C52-1
+Added Pin To Net: NetName=AGND Pin=C52-2
+Added Pin To Net: NetName=AVEE Pin=C53-1
+Added Pin To Net: NetName=AGND Pin=C53-2
+Added Pin To Net: NetName=AVEE Pin=C54-1
+Added Pin To Net: NetName=AGND Pin=C54-2
+Added Pin To Net: NetName=AVEE Pin=C55-1
+Added Pin To Net: NetName=AGND Pin=C55-2
+Added Pin To Net: NetName=NetR8_2 Pin=R8-1
+Added Pin To Net: NetName=CH1_BUF Pin=R8-2
+Added Pin To Net: NetName=NetR7_2 Pin=R11-1
+Added Pin To Net: NetName=NetR8_2 Pin=R11-2
+Added Pin To Net: NetName=NetC11_2 Pin=R19-1
+Added Pin To Net: NetName=REF_LS Pin=R19-2
+Added Pin To Net: NetName=AGND Pin=R19-3
+Change Net Name : Old Net Name=NetR8_2 New Net Name=NetR8_1
+Added Member To Class: ClassName=U_DSO_Front Member=Component C52 100nF
+Added Member To Class: ClassName=U_DSO_Front Member=Component C53 10uF
+Added Member To Class: ClassName=U_DSO_ADC Member=Component C54 100nF
+Added Member To Class: ClassName=U_DSO_ADC Member=Component C55 10uF
+Added Member To Class: ClassName=U_DSO_ADC Member=Component R19 DIV_TRIM

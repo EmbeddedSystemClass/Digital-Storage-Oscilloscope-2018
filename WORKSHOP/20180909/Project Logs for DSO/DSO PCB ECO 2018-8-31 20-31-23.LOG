@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=CH1_BUF Pin=R8-1
+Change Component Comment : Designator=R2 Old Comment=0 New Comment=470
+Change Component Comment : Designator=R11 Old Comment=1K New Comment=DIV_TRIM
+Change Component Comment : Designator=R8 Old Comment=4.7K New Comment=DIV_TRIM
+Added Pin To Net: NetName=NetR7_2 Pin=R8-1
+Change Net Name : Old Net Name=NetR8_2 New Net Name=NetR8_3

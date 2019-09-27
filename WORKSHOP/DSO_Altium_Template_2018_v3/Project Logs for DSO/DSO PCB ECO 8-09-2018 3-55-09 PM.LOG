@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=ADC_EXT Pin=C7-2
+Removed Pin From Net: NetName=ADC_EXT Pin=C8-1
+Removed Pin From Net: NetName=ADC_EXT Pin=C12-1
+Removed Pin From Net: NetName=ADC_EXT Pin=C13-1
+Removed Pin From Net: NetName=ADC_EXT Pin=C14-1
+Removed Pin From Net: NetName=ADC_EXT Pin=R12-2
+Added Pin To Net: NetName=AGND Pin=C7-2
+Added Pin To Net: NetName=AGND Pin=C8-1
+Added Pin To Net: NetName=AGND Pin=C12-1
+Added Pin To Net: NetName=AGND Pin=C13-1
+Added Pin To Net: NetName=AGND Pin=C14-1
+Added Pin To Net: NetName=AGND Pin=R12-2
+Change Net Name : Old Net Name=ADC_EXT New Net Name=DGND
+Change Net Name : Old Net Name=VDRV New Net Name=DVCC

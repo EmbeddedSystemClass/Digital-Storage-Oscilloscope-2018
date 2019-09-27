@@ -1,0 +1,11 @@
+Added Component: Designator=R8(RPOT)
+Added Component: Designator=R11(RPOT)
+Added Pin To Net: NetName=NetR7_2 Pin=R8-1
+Added Pin To Net: NetName=NetR8_3 Pin=R8-2
+Added Pin To Net: NetName=CH1_NORM Pin=R8-3
+Added Pin To Net: NetName=AGND Pin=R11-1
+Added Pin To Net: NetName=NetC11_2 Pin=R11-2
+Added Pin To Net: NetName=REF_LS Pin=R11-3
+Change Net Name : Old Net Name=NetR8_3 New Net Name=NetR8_2
+Added Member To Class: ClassName=U_DSO_ADC Member=Component R8 DIV_TRIM
+Added Member To Class: ClassName=U_DSO_ADC Member=Component R11 DIV_TRIM

@@ -1,0 +1,53 @@
+Removed Pin From Net: NetName=DGND Pin=C16-2
+Removed Pin From Net: NetName=DGND Pin=C17-2
+Removed Pin From Net: NetName=5V_P Pin=C43-1
+Removed Pin From Net: NetName=5V_P Pin=L3-2
+Removed Pin From Net: NetName=5V_P Pin=TP4-1
+Removed Pin From Net: NetName=AGND Pin=U5-5
+Removed Pin From Net: NetName=AGND Pin=U5-7
+Removed Pin From Net: NetName=5V_P Pin=U14-5
+Removed Pin From Net: NetName=5V_P Pin=U15-2
+Added Component: Designator=L5(0805)
+Added Component: Designator=N3(NET-TIE)
+Added Pin To Net: NetName=5V_P Pin=L5-1
+Added Pin To Net: NetName=AVCC Pin=L5-2
+Added Pin To Net: NetName=AGND Pin=N3-1
+Change Net Name : Old Net Name=5V_P New Net Name=5V_D
+Added Pin To Net: NetName=5V_GND Pin=C16-2
+Added Pin To Net: NetName=5V_GND Pin=C17-2
+Added Pin To Net: NetName=5V_GND Pin=N3-0
+Added Pin To Net: NetName=5V_GND Pin=U5-5
+Added Pin To Net: NetName=5V_GND Pin=U5-7
+Added Net: Name=5V_GND
+Added Pin To Net: NetName=5V_P Pin=C43-1
+Added Pin To Net: NetName=5V_P Pin=L3-2
+Added Pin To Net: NetName=5V_P Pin=TP4-1
+Added Pin To Net: NetName=5V_P Pin=U14-5
+Added Pin To Net: NetName=5V_P Pin=U15-2
+Added Net: Name=5V_P
+Added Member To Class: ClassName=U_DSO_Power Member=Component L5 300mA
+Added Member To Class: ClassName=U_DSO_Power Member=Component N3 NET-TIE
+Added Member To Class: ClassName=ADC_A[0..15] Member=Element[0]: ADC_A
+Added Member To Class: ClassName=ADC_A[0..15] Member=Element[1]: ADC_A
+Added Member To Class: ClassName=ADC_A[0..15] Member=Element[2]: ADC_A
+Added Member To Class: ClassName=ADC_A[0..15] Member=Element[3]: ADC_A
+Added Member To Class: ClassName=ADC_A[0..15] Member=Element[4]: ADC_A
+Added Member To Class: ClassName=ADC_A[0..15] Member=Element[5]: ADC_A
+Added Member To Class: ClassName=ADC_A[0..15] Member=Element[6]: ADC_A
+Added Member To Class: ClassName=ADC_A[0..15] Member=Element[7]: ADC_A
+Added Member To Class: ClassName=ADC_A[0..15] Member=Element[8]: ADC_A
+Added Member To Class: ClassName=ADC_A[0..15] Member=Element[9]: ADC_A
+Added Member To Class: ClassName=ADC_A[0..15] Member=Element[10]: ADC_A
+Added Member To Class: ClassName=ADC_A[0..15] Member=Element[11]: ADC_A
+Added Member To Class: ClassName=ADC_A[0..15] Member=Element[12]: ADC_A
+Added Member To Class: ClassName=ADC_A[0..15] Member=Element[13]: ADC_A
+Added Member To Class: ClassName=ADC_A[0..15] Member=Element[14]: ADC_A
+Added Member To Class: ClassName=ADC_A[0..15] Member=Element[15]: ADC_A
+Added Member To Class: ClassName=ADC_D[0..7] Member=Element[0]: ADC_D
+Added Member To Class: ClassName=ADC_D[0..7] Member=Element[1]: ADC_D
+Added Member To Class: ClassName=ADC_D[0..7] Member=Element[2]: ADC_D
+Added Member To Class: ClassName=ADC_D[0..7] Member=Element[3]: ADC_D
+Added Member To Class: ClassName=ADC_D[0..7] Member=Element[4]: ADC_D
+Added Member To Class: ClassName=ADC_D[0..7] Member=Element[5]: ADC_D
+Added Member To Class: ClassName=ADC_D[0..7] Member=Element[6]: ADC_D
+Added Member To Class: ClassName=ADC_D[0..7] Member=Element[7]: ADC_D

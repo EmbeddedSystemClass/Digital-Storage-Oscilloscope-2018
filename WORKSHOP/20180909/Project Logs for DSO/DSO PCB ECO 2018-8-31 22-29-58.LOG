@@ -1,0 +1,219 @@
+Removed Pin From Net: NetName=ADC_IN Pin=C7-1
+Removed Pin From Net: NetName=AGND Pin=C7-2
+Removed Pin From Net: NetName=IN\ Pin=C8-1
+Removed Pin From Net: NetName=AGND Pin=C8-2
+Removed Pin From Net: NetName=REFT Pin=C9-1
+Removed Pin From Net: NetName=AGND Pin=C9-2
+Removed Pin From Net: NetName=REFB Pin=C10-1
+Removed Pin From Net: NetName=AGND Pin=C10-2
+Removed Pin From Net: NetName=NetC11_1 Pin=C11-1
+Removed Pin From Net: NetName=NetC11_2 Pin=C11-2
+Removed Pin From Net: NetName=AVCC Pin=C12-1
+Removed Pin From Net: NetName=AGND Pin=C12-2
+Removed Pin From Net: NetName=AVCC Pin=C13-1
+Removed Pin From Net: NetName=AGND Pin=C13-2
+Removed Pin From Net: NetName=AVCC Pin=C14-1
+Removed Pin From Net: NetName=AGND Pin=C14-2
+Removed Pin From Net: NetName=DVCC Pin=C15-1
+Removed Pin From Net: NetName=DGND Pin=C15-2
+Removed Pin From Net: NetName=DVCC Pin=C16-1
+Removed Pin From Net: NetName=DGND Pin=C16-2
+Removed Pin From Net: NetName=DVCC Pin=C17-1
+Removed Pin From Net: NetName=DGND Pin=C17-2
+Removed Pin From Net: NetName=DVCC Pin=C18-1
+Removed Pin From Net: NetName=DGND Pin=C18-2
+Removed Pin From Net: NetName=ADC_IN Pin=R7-1
+Removed Pin From Net: NetName=NetR7_2 Pin=R7-2
+Removed Pin From Net: NetName=NetR7_2 Pin=R8-1
+Removed Pin From Net: NetName=CH1_NORM Pin=R8-2
+Removed Pin From Net: NetName=NetR8_3 Pin=R8-3
+Removed Pin From Net: NetName=NetC11_1 Pin=R9-1
+Removed Pin From Net: NetName=NetC11_2 Pin=R9-2
+Removed Pin From Net: NetName=REFT Pin=R10-1
+Removed Pin From Net: NetName=NetR10_2 Pin=R10-2
+Removed Pin From Net: NetName=AGND Pin=R11-1
+Removed Pin From Net: NetName=REF_LS Pin=R11-2
+Removed Pin From Net: NetName=NetC11_2 Pin=R11-3
+Removed Pin From Net: NetName=ADC_IN Pin=TP2-1
+Removed Pin From Net: NetName=NetR7_2 Pin=U2-1
+Removed Pin From Net: NetName=NetR8_3 Pin=U2-2
+Removed Pin From Net: NetName=REF_LS Pin=U2-3
+Removed Pin From Net: NetName=AGND Pin=U2-4
+Removed Pin From Net: NetName=NetR10_2 Pin=U2-5
+Removed Pin From Net: NetName=NetC11_1 Pin=U2-6
+Removed Pin From Net: NetName=NetC11_2 Pin=U2-7
+Removed Pin From Net: NetName=AVCC Pin=U2-8
+Removed Pin From Net: NetName=RAM_READ Pin=U3-1
+Removed Pin From Net: NetName=BIT1 Pin=U3-2
+Removed Pin From Net: NetName=BIT2 Pin=U3-3
+Removed Pin From Net: NetName=BIT3 Pin=U3-4
+Removed Pin From Net: NetName=BIT4 Pin=U3-5
+Removed Pin From Net: NetName=BIT5 Pin=U3-6
+Removed Pin From Net: NetName=BIT6 Pin=U3-7
+Removed Pin From Net: NetName=BIT7 Pin=U3-8
+Removed Pin From Net: NetName=BIT8 Pin=U3-9
+Removed Pin From Net: NetName=DGND Pin=U3-10
+Removed Pin From Net: NetName=ADC_D7 Pin=U3-11
+Removed Pin From Net: NetName=ADC_D6 Pin=U3-12
+Removed Pin From Net: NetName=ADC_D5 Pin=U3-13
+Removed Pin From Net: NetName=ADC_D4 Pin=U3-14
+Removed Pin From Net: NetName=ADC_D3 Pin=U3-15
+Removed Pin From Net: NetName=ADC_D2 Pin=U3-16
+Removed Pin From Net: NetName=ADC_D1 Pin=U3-17
+Removed Pin From Net: NetName=ADC_D0 Pin=U3-18
+Removed Pin From Net: NetName=RAM_READ Pin=U3-19
+Removed Pin From Net: NetName=DVCC Pin=U3-20
+Removed Pin From Net: NetName=AGND Pin=U4-1
+Removed Pin From Net: NetName=BIT1 Pin=U4-2
+Removed Pin From Net: NetName=BIT2 Pin=U4-3
+Removed Pin From Net: NetName=BIT3 Pin=U4-4
+Removed Pin From Net: NetName=BIT4 Pin=U4-5
+Removed Pin From Net: NetName=BIT5 Pin=U4-6
+Removed Pin From Net: NetName=BIT6 Pin=U4-7
+Removed Pin From Net: NetName=BIT7 Pin=U4-8
+Removed Pin From Net: NetName=BIT8 Pin=U4-9
+Removed Pin From Net: NetName=ADC_CLK Pin=U4-10
+Removed Pin From Net: NetName=AVCC Pin=U4-11
+Removed Pin From Net: NetName=AGND Pin=U4-12
+Removed Pin From Net: NetName=REFB Pin=U4-13
+Removed Pin From Net: NetName=REFT Pin=U4-14
+Removed Pin From Net: NetName=IN\ Pin=U4-15
+Removed Pin From Net: NetName=IN\ Pin=U4-16
+Removed Pin From Net: NetName=ADC_IN Pin=U4-17
+Removed Pin From Net: NetName=AGND Pin=U4-18
+Removed Pin From Net: NetName=AVCC Pin=U4-19
+Removed Pin From Net: NetName=DVCC Pin=U4-20
+Removed Pin From Net: NetName=DVCC Pin=U5-1
+Removed Pin From Net: NetName=CS\ Pin=U5-2
+Removed Pin From Net: NetName=SCK Pin=U5-3
+Removed Pin From Net: NetName=SDA Pin=U5-4
+Removed Pin From Net: NetName=DGND Pin=U5-5
+Removed Pin From Net: NetName=DVCC Pin=U5-6
+Removed Pin From Net: NetName=DGND Pin=U5-7
+Removed Pin From Net: NetName=ADCVOUT Pin=U5-8
+Removed Pin From Net: NetName=TRIG_IN Pin=U6-1
+Removed Pin From Net: NetName=ADCVOUT Pin=U6-2
+Removed Pin From Net: NetName=CH1_NORM Pin=U6-3
+Removed Pin From Net: NetName=DGND Pin=U6-4
+Removed Pin From Net: NetName=DVCC Pin=U6-8
+Added Component: Designator=C7(0805C)
+Added Component: Designator=C8(0805C)
+Added Component: Designator=C9(0805C)
+Added Component: Designator=C10(0805C)
+Added Component: Designator=C11(0805C)
+Added Component: Designator=C12(0805C)
+Added Component: Designator=C13(0805C)
+Added Component: Designator=C14(0805C)
+Added Component: Designator=C15(0805C)
+Added Component: Designator=C16(0805C)
+Added Component: Designator=C17(0805C)
+Added Component: Designator=C18(0805C)
+Added Component: Designator=R7(0805)
+Added Component: Designator=R8(RPOT)
+Added Component: Designator=R9(0805)
+Added Component: Designator=R10(0805)
+Added Component: Designator=R11(RPOT)
+Added Component: Designator=TP2(Testpoin)
+Added Component: Designator=U2(SOIC-8)
+Added Component: Designator=U3(SOT163-1_N)
+Added Component: Designator=U4(TI-DBQ20_L)
+Added Component: Designator=U5(SOIC-8)
+Added Component: Designator=U6(SOIC-8)
+Added Pin To Net: NetName=ADC_IN Pin=C7-1
+Added Pin To Net: NetName=AGND Pin=C7-2
+Added Pin To Net: NetName=IN\ Pin=C8-1
+Added Pin To Net: NetName=AGND Pin=C8-2
+Added Pin To Net: NetName=REFT Pin=C9-1
+Added Pin To Net: NetName=AGND Pin=C9-2
+Added Pin To Net: NetName=REFB Pin=C10-1
+Added Pin To Net: NetName=AGND Pin=C10-2
+Added Pin To Net: NetName=NetC11_1 Pin=C11-1
+Added Pin To Net: NetName=NetC11_2 Pin=C11-2
+Added Pin To Net: NetName=AVCC Pin=C12-1
+Added Pin To Net: NetName=AGND Pin=C12-2
+Added Pin To Net: NetName=AVCC Pin=C13-1
+Added Pin To Net: NetName=AGND Pin=C13-2
+Added Pin To Net: NetName=AVCC Pin=C14-1
+Added Pin To Net: NetName=AGND Pin=C14-2
+Added Pin To Net: NetName=DVCC Pin=C15-1
+Added Pin To Net: NetName=DGND Pin=C15-2
+Added Pin To Net: NetName=DVCC Pin=C16-1
+Added Pin To Net: NetName=DGND Pin=C16-2
+Added Pin To Net: NetName=DVCC Pin=C17-1
+Added Pin To Net: NetName=DGND Pin=C17-2
+Added Pin To Net: NetName=DVCC Pin=C18-1
+Added Pin To Net: NetName=DGND Pin=C18-2
+Added Pin To Net: NetName=ADC_IN Pin=R7-1
+Added Pin To Net: NetName=NetR7_2 Pin=R7-2
+Added Pin To Net: NetName=NetR7_2 Pin=R8-1
+Added Pin To Net: NetName=CH1_NORM Pin=R8-2
+Added Pin To Net: NetName=NetR8_3 Pin=R8-3
+Added Pin To Net: NetName=NetC11_1 Pin=R9-1
+Added Pin To Net: NetName=NetC11_2 Pin=R9-2
+Added Pin To Net: NetName=REFT Pin=R10-1
+Added Pin To Net: NetName=NetR10_2 Pin=R10-2
+Added Pin To Net: NetName=AGND Pin=R11-1
+Added Pin To Net: NetName=REF_LS Pin=R11-2
+Added Pin To Net: NetName=NetC11_2 Pin=R11-3
+Added Pin To Net: NetName=ADC_IN Pin=TP2-1
+Added Pin To Net: NetName=NetR7_2 Pin=U2-1
+Added Pin To Net: NetName=NetR8_3 Pin=U2-2
+Added Pin To Net: NetName=REF_LS Pin=U2-3
+Added Pin To Net: NetName=AGND Pin=U2-4
+Added Pin To Net: NetName=NetR10_2 Pin=U2-5
+Added Pin To Net: NetName=NetC11_1 Pin=U2-6
+Added Pin To Net: NetName=NetC11_2 Pin=U2-7
+Added Pin To Net: NetName=AVCC Pin=U2-8
+Added Pin To Net: NetName=RAM_READ Pin=U3-1
+Added Pin To Net: NetName=BIT1 Pin=U3-2
+Added Pin To Net: NetName=BIT2 Pin=U3-3
+Added Pin To Net: NetName=BIT3 Pin=U3-4
+Added Pin To Net: NetName=BIT4 Pin=U3-5
+Added Pin To Net: NetName=BIT5 Pin=U3-6
+Added Pin To Net: NetName=BIT6 Pin=U3-7
+Added Pin To Net: NetName=BIT7 Pin=U3-8
+Added Pin To Net: NetName=BIT8 Pin=U3-9
+Added Pin To Net: NetName=DGND Pin=U3-10
+Added Pin To Net: NetName=ADC_D7 Pin=U3-11
+Added Pin To Net: NetName=ADC_D6 Pin=U3-12
+Added Pin To Net: NetName=ADC_D5 Pin=U3-13
+Added Pin To Net: NetName=ADC_D4 Pin=U3-14
+Added Pin To Net: NetName=ADC_D3 Pin=U3-15
+Added Pin To Net: NetName=ADC_D2 Pin=U3-16
+Added Pin To Net: NetName=ADC_D1 Pin=U3-17
+Added Pin To Net: NetName=ADC_D0 Pin=U3-18
+Added Pin To Net: NetName=RAM_READ Pin=U3-19
+Added Pin To Net: NetName=DVCC Pin=U3-20
+Added Pin To Net: NetName=AGND Pin=U4-1
+Added Pin To Net: NetName=BIT1 Pin=U4-2
+Added Pin To Net: NetName=BIT2 Pin=U4-3
+Added Pin To Net: NetName=BIT3 Pin=U4-4
+Added Pin To Net: NetName=BIT4 Pin=U4-5
+Added Pin To Net: NetName=BIT5 Pin=U4-6
+Added Pin To Net: NetName=BIT6 Pin=U4-7
+Added Pin To Net: NetName=BIT7 Pin=U4-8
+Added Pin To Net: NetName=BIT8 Pin=U4-9
+Added Pin To Net: NetName=ADC_CLK Pin=U4-10
+Added Pin To Net: NetName=AVCC Pin=U4-11
+Added Pin To Net: NetName=AGND Pin=U4-12
+Added Pin To Net: NetName=REFB Pin=U4-13
+Added Pin To Net: NetName=REFT Pin=U4-14
+Added Pin To Net: NetName=IN\ Pin=U4-15
+Added Pin To Net: NetName=IN\ Pin=U4-16
+Added Pin To Net: NetName=ADC_IN Pin=U4-17
+Added Pin To Net: NetName=AGND Pin=U4-18
+Added Pin To Net: NetName=AVCC Pin=U4-19
+Added Pin To Net: NetName=DVCC Pin=U4-20
+Added Pin To Net: NetName=DVCC Pin=U5-1
+Added Pin To Net: NetName=CS\ Pin=U5-2
+Added Pin To Net: NetName=SCK Pin=U5-3
+Added Pin To Net: NetName=SDA Pin=U5-4
+Added Pin To Net: NetName=DGND Pin=U5-5
+Added Pin To Net: NetName=DVCC Pin=U5-6
+Added Pin To Net: NetName=DGND Pin=U5-7
+Added Pin To Net: NetName=ADCVOUT Pin=U5-8
+Added Pin To Net: NetName=TRIG_IN Pin=U6-1
+Added Pin To Net: NetName=ADCVOUT Pin=U6-2
+Added Pin To Net: NetName=ADC_IN Pin=U6-3
+Added Pin To Net: NetName=DGND Pin=U6-4
+Added Pin To Net: NetName=DVCC Pin=U6-8

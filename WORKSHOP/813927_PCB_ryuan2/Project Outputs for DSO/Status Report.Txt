@@ -1,0 +1,10 @@
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [DSO.PrjPCB]
+   Generated File[Bill of Materials-DSO.xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 12:50:23 PM On 15/09/2018
